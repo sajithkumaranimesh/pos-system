@@ -1,9 +1,19 @@
 
-\
-,src/main/java/edu/icet/clothingcrm/Main.java,0\8\08f8a36ef792e3b877b7a03a17b8acb2bc5432c2
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 G
 src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
 v
 Fsrc/main/java/edu/icet/clothingcrm/controller/loginFormController.java,7\b\7b0c0f46c2919efe273f20defb515ab5ad9cb146
+y
+Isrc/main/java/edu/icet/clothingcrm/controller/RegisterFormController.java,7\4\746f4fd03ed060011d55fc639c198863a5452643
+h
+8src/main/java/edu/icet/clothingcrm/dto/RegisterUser.java,3\b\3b82db85370570009f641c0ad7d1d3f66aac571b
+g
+7src/main/java/edu/icet/clothingcrm/db/DBConnection.java,c\1\c1606e721fe2c5b301e397955e5a5eadad3c0f31
+z
+Jsrc/main/java/edu/icet/clothingcrm/controller/DashboardFormController.java,5\c\5cfee8c21d2b277192ac87c245a3ba89a8f6043f
+x
+Hsrc/main/java/edu/icet/clothingcrm/controller/ProfileFormController.java,c\2\c22b9709640c5fd7fd1345152af50dfa1d40d40e
+v
+Fsrc/main/java/edu/icet/clothingcrm/controller/LoginFormController.java,9\4\94b15c784f742fc69b36187aca29672a36ffdcae

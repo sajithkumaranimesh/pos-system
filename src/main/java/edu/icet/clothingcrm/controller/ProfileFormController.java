@@ -1,4 +1,4 @@
 package edu.icet.clothingcrm.controller;
 
-public class loginFormController {
+public class ProfileFormController {
 }

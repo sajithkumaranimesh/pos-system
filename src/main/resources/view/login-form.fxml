@@ -1,14 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="edu.icet.clothingcrm.controller.loginFormController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="627.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.LoginFormController">
+   <children>
+      <Rectangle arcHeight="50.0" arcWidth="60.0" fill="#d9d9d9" height="560.0" layoutX="466.0" layoutY="34.0" stroke="WHITE" strokeType="INSIDE" width="435.0" />
+      <JFXTextField fx:id="txtUsername" layoutX="566.0" layoutY="219.0" prefHeight="44.0" prefWidth="232.0" promptText="username" />
+      <JFXTextField fx:id="txtPassword" layoutX="566.0" layoutY="314.0" prefHeight="44.0" prefWidth="232.0" promptText="password" />
+      <JFXButton layoutX="644.0" layoutY="397.0" onAction="#btnLoginOnAction" style="-fx-background-color: #4834d4;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="634.0" layoutY="500.0" onAction="#btnRegisterOnAction" style="-fx-background-color: #4834d4;" text="Register" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></JFXButton>
+      <Separator layoutX="482.0" layoutY="465.0" prefHeight="3.0" prefWidth="182.0" />
+      <Separator layoutX="691.0" layoutY="465.0" prefHeight="3.0" prefWidth="198.0" />
+      <Label layoutX="671.0" layoutY="455.0" text="or">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="704.0" layoutY="361.0" text="Forget Password?" textFill="#2a38ff" />
+      <Label layoutX="574.0" layoutY="549.0" text=" © 2024-2025 POS (Point Of Sales) V1.0.0" />
+      <Label layoutX="579.0" layoutY="567.0" text="Design &amp; Development by : pr23106122" textFill="RED" />
+      <Label layoutX="566.0" layoutY="74.0" text="Hello,">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="565.0" layoutY="139.0" text="Welcome">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="81.0" text="Clothing Store">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="294.0" fitWidth="442.0" layoutX="21.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/main-img.png" />
+         </image>
+      </ImageView>
+   </children>
 </AnchorPane>

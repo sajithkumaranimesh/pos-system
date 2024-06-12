@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="670.0" prefWidth="929.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.RegisterFormController">
+   <children>
+      <Rectangle arcHeight="50.0" arcWidth="60.0" fill="#d9d9d9" height="600.0" layoutX="469.0" layoutY="37.0" stroke="WHITE" strokeType="INSIDE" width="422.0" />
+      <JFXTextField fx:id="txtUsername" layoutX="565.0" layoutY="255.0" prefHeight="41.0" prefWidth="228.0" promptText="username" />
+      <JFXTextField fx:id="txtPassword" layoutX="565.0" layoutY="348.0" prefHeight="42.0" prefWidth="228.0" promptText="password" />
+      <JFXTextField fx:id="txtEmail" layoutX="565.0" layoutY="434.0" prefHeight="42.0" prefWidth="228.0" promptText="email address" />
+      <JFXButton layoutX="629.0" layoutY="523.0" onAction="#btnRegisterOnAction" style="-fx-background-color: #4834d4;" text="Register" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="565.0" layoutY="83.0" text="Hello,">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="565.0" layoutY="147.0" text="Welcome">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="569.0" layoutY="574.0" text=" © 2024-2025 POS (Point Of Sales) V1.0.0" />
+      <Label layoutX="573.0" layoutY="592.0" text="Design &amp; Development by : pr23106122" textFill="#ff4d00" />
+      <ImageView fitHeight="289.0" fitWidth="433.0" layoutX="14.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/main-img.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="101.0" text="Clothing Store">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
