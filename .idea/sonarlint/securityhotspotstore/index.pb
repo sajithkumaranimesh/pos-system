@@ -23,3 +23,5 @@ y
 Isrc/main/java/edu/icet/clothingcrm/controller/SupplierFormController.java,b\4\b4cf25486a49900718c6d0e9cbd0bd1d5245a0cf
 y
 Isrc/main/java/edu/icet/clothingcrm/controller/CategoryFormController.java,8\3\836ca9e4a6306556ce5712a56e76e600cd2050e7
+x
+Hsrc/main/java/edu/icet/clothingcrm/controller/ProductFormController.java,0\8\08c32783d33403b915e546928c0dbb28b1e4c1f4
