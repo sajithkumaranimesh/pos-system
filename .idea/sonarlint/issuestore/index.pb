@@ -19,3 +19,7 @@ v
 Fsrc/main/java/edu/icet/clothingcrm/controller/LoginFormController.java,9\4\94b15c784f742fc69b36187aca29672a36ffdcae
 u
 Esrc/main/java/edu/icet/clothingcrm/controller/UserFormController.java,b\b\bbb8c601683a6fd3e782e2731fee4ebe92da303c
+y
+Isrc/main/java/edu/icet/clothingcrm/controller/SupplierFormController.java,b\4\b4cf25486a49900718c6d0e9cbd0bd1d5245a0cf
+y
+Isrc/main/java/edu/icet/clothingcrm/controller/CategoryFormController.java,8\3\836ca9e4a6306556ce5712a56e76e600cd2050e7
