@@ -17,3 +17,5 @@ x
 Hsrc/main/java/edu/icet/clothingcrm/controller/ProfileFormController.java,c\2\c22b9709640c5fd7fd1345152af50dfa1d40d40e
 v
 Fsrc/main/java/edu/icet/clothingcrm/controller/LoginFormController.java,9\4\94b15c784f742fc69b36187aca29672a36ffdcae
+u
+Esrc/main/java/edu/icet/clothingcrm/controller/UserFormController.java,b\b\bbb8c601683a6fd3e782e2731fee4ebe92da303c
