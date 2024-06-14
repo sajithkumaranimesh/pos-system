@@ -31,3 +31,15 @@ w
 Gsrc/main/java/edu/icet/clothingcrm/controller/ReportFormController.java,a\6\a6c5257d1b07cf9323d284a9791148eaf585ff66
 {
 Ksrc/main/java/edu/icet/clothingcrm/controller/ExpirationFormController.java,6\7\671a500c9a70dc68edbfa4a12bef2654607be375
+X
+(src/main/resources/view/report-form.fxml,b\2\b22fd8ccee27fe9b992a0ed3276a92c717402efb
+[
++src/main/resources/view/dashboard-form.fxml,8\6\8624e946637a8f7f91066d3635229d905c374916
+W
+'src/main/resources/view/order-form.fxml,9\0\9010a8bc332ead2472c6116c6fd94bb4fa2299fd
+\
+,src/main/resources/view/expiration-form.fxml,3\3\333a28a818af8f25ab2eb3bc29341c829cb5e22a
+d
+4src/main/java/edu/icet/clothingcrm/dto/Category.java,0\8\0801e2ae9f0e635218c28f7a92b614ac2005bba7
+c
+3src/main/java/edu/icet/clothingcrm/dto/Product.java,1\7\17187f4dff866bf30f0b9c032c29a146f8bc4e71
