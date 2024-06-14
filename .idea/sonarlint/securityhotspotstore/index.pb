@@ -43,3 +43,5 @@ d
 4src/main/java/edu/icet/clothingcrm/dto/Category.java,0\8\0801e2ae9f0e635218c28f7a92b614ac2005bba7
 c
 3src/main/java/edu/icet/clothingcrm/dto/Product.java,1\7\17187f4dff866bf30f0b9c032c29a146f8bc4e71
+`
+0src/main/java/edu/icet/clothingcrm/dto/User.java,8\0\800a7c85a6245a3dd7398f65435e19406364e96b
