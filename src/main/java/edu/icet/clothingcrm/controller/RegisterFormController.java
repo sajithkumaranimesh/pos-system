@@ -29,7 +29,6 @@ public class RegisterFormController {
             psTm.setString(1,registerUser.getUsername());
             psTm.setString(2,registerUser.getPassword());
             psTm.setString(3,registerUser.getEmail());
-
             psTm.execute();
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
