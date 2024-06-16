@@ -49,3 +49,11 @@ y
 Isrc/main/java/edu/icet/clothingcrm/controller/EmployeeFormController.java,f\6\f62204f654ef2382fb541429d896079deb88a6d8
 d
 4src/main/java/edu/icet/clothingcrm/dto/Employee.java,1\b\1bd3b36ba003dafb9756293d2163a9b7c62a3e19
+l
+<src/main/java/edu/icet/clothingcrm/dto/tm/EmployeeTable.java,b\c\bc411a199b2b851887f84f494832b63bc4b34a97
+l
+<src/main/java/edu/icet/clothingcrm/dto/tm/CategoryTable.java,d\f\df08747e3f239e2fa50075230f055ec28c9dae9d
+d
+4src/main/java/edu/icet/clothingcrm/dto/Supplier.java,e\4\e4bbce6896463750902c7ce09bda9fc52ec9c50b
+l
+<src/main/java/edu/icet/clothingcrm/dto/tm/SupplierTable.java,a\8\a8e87f4e4f22d219d94339c43e9f13b716c5ef1c

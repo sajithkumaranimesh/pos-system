@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="638.0" prefWidth="931.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.ExpirationFormController">
+   <children>
+      <Rectangle arcHeight="50.0" arcWidth="60.0" fill="#d9d9d9" height="581.0" layoutX="22.0" layoutY="33.0" stroke="WHITE" strokeType="INSIDE" width="197.0" />
+      <Label layoutX="64.0" layoutY="50.0" text="POS System">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="108.0" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="163.0" text="Users">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="220.0" text="Suppliers">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="280.0" text="Category">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="343.0" text="Products">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="406.0" text="Orders">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="471.0" text="Reports">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="534.0" text="Expired">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="236.0" layoutY="35.0" text="Expiration">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Circle fill="#d9d9d9" layoutX="889.0" layoutY="46.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="738.0" layoutY="26.0" text="My Profile">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="738.0" layoutY="49.0" text="nimeshs581@gmail.com" />
+      <Label layoutX="429.0" layoutY="24.0" text="Time : 23:30:45">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="581.0" layoutY="24.0" text="Date: 2010-12-12">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="42.0" layoutX="36.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/dashboard-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="36.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/category-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="36.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/supplier-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="36.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/users-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="36.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/product-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="36.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/orders-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="36.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/report-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="36.0" layoutY="534.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/expired-icon.png" />
+         </image>
+      </ImageView>
+      <TableView layoutX="236.0" layoutY="93.0" prefHeight="320.0" prefWidth="676.0">
+        <columns>
+          <TableColumn prefWidth="83.20001220703125" text="Product" />
+          <TableColumn prefWidth="93.5999755859375" text="Stock Quantity" />
+            <TableColumn prefWidth="98.39999389648438" text="Supplier" />
+            <TableColumn prefWidth="99.199951171875" text="Expiry Date" />
+            <TableColumn prefWidth="102.4000244140625" text="MFT Date" />
+            <TableColumn prefWidth="101.5999755859375" text="Status" />
+            <TableColumn prefWidth="106.400146484375" text="Action" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8âª¡¶2J$22e0ee3f-348b-4b99-81a1-7446b4f4f42c
+›
+java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äİìÿÿÿÿÿ8âª¡¶2J$66398a79-c35f-49b3-ab13-0e50410082b2
+œ
+java:S1104"TMake txtPrice a static final constant or non-public and provide accessors if needed.(˜¹•ıÿÿÿÿ8âª¡¶2J$b15e978c-2314-4a7d-b00b-81aa94afd392
+u
+java:S1172"2Remove this unused method parameter "actionEvent".(Ëôûã8âª¡¶2J$f8ca09b1-2f1e-4aec-96e5-bb85d994823b
+r	java:S106"+Replace this use of System.out by a logger.(Ø¦ˆŞúÿÿÿÿ8âª¡¶2J$a65f6269-3521-4b01-9fad-08e7b82c1310

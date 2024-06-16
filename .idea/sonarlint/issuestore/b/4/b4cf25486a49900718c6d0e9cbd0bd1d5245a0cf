@@ -1,0 +1,59 @@
+
+	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8—ªï‡‚2J$70c839c9-3c0a-4df8-86e2-ccf89196cf5b
+	java:S112n"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8—ªï‡‚2J$aca50c96-d3a0-4db0-b598-9e452c5ba350
+	java:S112p"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8—ªï‡‚2J$168ad5f3-fb01-49b4-ac83-ea4157c3d232
+	java:S112‡"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8—ªï‡‚2J$69fd5be6-b69e-43a3-b6d2-3c3da2a091c9
+	java:S112˜"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8—ªï‡‚2J$7fa3c2a7-ef6c-4d23-904c-7f8c84dd0b41
+r
+java:S3740$"/Provide the parametrized type for this generic.(Ÿ±æŒ8—ªï‡‚2J$34e71386-522e-4175-9ec9-dda5a61787f8
+r
+java:S3740%"/Provide the parametrized type for this generic.(Ÿœ¼‘8—ªï‡‚2J$bb75474d-0e9c-41f5-b09e-ef66e5812e2c
+w
+java:S3740&"/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ8—ªï‡‚2J$7144d42f-2332-49a8-9df9-c3a7cf587af3
+r
+java:S3740'"/Provide the parametrized type for this generic.(ƒäÆ8—ªï‡‚2J$3467608a-9c30-4e80-bce7-f54e7be4d7c2
+w
+java:S3740("/Provide the parametrized type for this generic.(°Äˆ´ÿÿÿÿÿ8—ªï‡‚2J$65aa6825-e922-47ce-a64e-871d3de21173
+–
+java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8—ªï‡‚2J$1919cd1a-a47f-4e33-b5d0-c139b9700b3f
+›
+java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8—ªï‡‚2J$e20d51cc-a46b-428e-9730-4e2a8b34754c
+”
+java:S1104"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8—ªï‡‚2J$baa458c1-2c18-47ff-9fab-0b6b2b82774e
+›
+java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äİìÿÿÿÿÿ8—ªï‡‚2J$42777617-bb2c-434c-9663-c39718a598b1
+œ
+java:S1104 "TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8—ªï‡‚2J$eb09cfb0-9739-4a8c-bc3e-1fcc23b7f606
+™
+java:S1104!"VMake txtCompany a static final constant or non-public and provide accessors if needed.(Úù÷ê8—ªï‡‚2J$8cbd1e6d-8d5d-4cfb-9fa5-327ec6373593
+Ÿ
+java:S1104$"\Make tblSupplierTable a static final constant or non-public and provide accessors if needed.(Ÿ±æŒ8—ªï‡‚2J$88b56167-0ca0-44c5-9699-a5cd60daa312
+œ
+java:S1104%"YMake colSupplierId a static final constant or non-public and provide accessors if needed.(Ÿœ¼‘8—ªï‡‚2J$1ec63d7f-4c2c-4d18-8f12-39c2de977cfd
+›
+java:S1104&"SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ8—ªï‡‚2J$6584cbf8-4bdc-4e97-adc0-2f5704afbbd6
+—
+java:S1104'"TMake colEmail a static final constant or non-public and provide accessors if needed.(ƒäÆ8—ªï‡‚2J$d7d33474-5e71-4821-ac40-85ac9ec2ebb9
+
+java:S1104("VMake colCompany a static final constant or non-public and provide accessors if needed.(°Äˆ´ÿÿÿÿÿ8—ªï‡‚2J$0cbe285f-30d6-4dd6-b1a8-d5dc9ae5ae9c
+
+java:S2095w"GUse try-with-resources or close this "Statement" in a "finally" clause.(íñ¥™ÿÿÿÿÿ8§ªï‡‚2J$6fa58c87-b736-45ac-829b-bdd92722b9c4
+—
+java:S2095c"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÈÚì¦úÿÿÿÿ8§ªï‡‚2J$1ccf4ba1-6c1b-41ed-9cee-8174ee5245d9
+‹
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(—éùí8§ªï‡‚2J$1a5d0bcb-b0e7-4f47-92c9-b0d3b64ddb68
+
+java:S2095H"GUse try-with-resources or close this "Statement" in a "finally" clause.(°¬»¬øÿÿÿÿ8§ªï‡‚2J$175e2f5c-bbcc-4a98-acc7-54e46693ec0c
+m	java:S106P"+Replace this use of System.out by a logger.(•Ï¡½8§ªï‡‚2J$e06563cf-3d0a-4d9f-b0ce-5eb6b69c4927
+u
+java:S1172X"2Remove this unused method parameter "actionEvent".(Õ’Ä½8¶ªï‡‚2J$131bc12f-d4a5-4102-868a-7731dae62a6b
+m	java:S106_"+Replace this use of System.out by a logger.(•Ï¡½8¶ªï‡‚2J$892aa72d-49e4-42a1-adfd-7fe7f5d4e248
+ˆ
+java:S2147o"ECombine this catch with the one at line 109, which has the same body.(ıàÑÎ8¶ªï‡‚2J$2bdd2fc7-bf1d-48a5-8444-9ae713dc2316
+z
+java:S1172t"2Remove this unused method parameter "actionEvent".(úË»‚ùÿÿÿÿ8¶ªï‡‚2J$93b9261f-2255-4316-b0d8-240e1fc738d4
+m	java:S106"+Replace this use of System.out by a logger.(•Ï¡½8¶ªï‡‚2J$3d22ddc2-213c-4442-84d4-29322e5bbbe9
+v
+java:S1172‹"2Remove this unused method parameter "actionEvent".(úşÎ½8¶ªï‡‚2J$22f6e78c-b0d7-4f7e-ac9a-702335788e0d
+n	java:S106“"+Replace this use of System.out by a logger.(Å¶Ş8¶ªï‡‚2J$0756effd-2ae6-41cd-a4de-dcac79abf066
+n	java:S106•"+Replace this use of System.out by a logger.(Ä…úº8¶ªï‡‚2J$ab2c4e50-dacf-420c-a4b7-bd4191c165e0

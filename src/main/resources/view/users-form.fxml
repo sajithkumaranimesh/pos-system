@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="635.0" prefWidth="919.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.UserFormController">
+   <children>
+      <Rectangle arcHeight="50.0" arcWidth="60.0" fill="#d9d9d9" height="581.0" layoutX="17.0" layoutY="27.0" stroke="WHITE" strokeType="INSIDE" width="197.0" />
+      <Label layoutX="59.0" layoutY="44.0" text="POS System">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="102.0" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="157.0" text="Users">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="214.0" text="Suppliers">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="274.0" text="Category">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="337.0" text="Products">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="400.0" text="Orders">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="465.0" text="Reports">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="528.0" text="Expired">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="231.0" layoutY="29.0" text="User Information">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Circle fill="#d9d9d9" layoutX="884.0" layoutY="40.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="733.0" layoutY="20.0" text="My Profile">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="733.0" layoutY="43.0" text="nimeshs581@gmail.com" />
+      <Label fx:id="lblTime" layoutX="424.0" layoutY="18.0" text="Time : 23:30:45">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDate" layoutX="576.0" layoutY="18.0" text="Date: 2010-12-12">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="42.0" layoutX="31.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/dashboard-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="31.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/category-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="31.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/supplier-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="31.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/users-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="31.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/product-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="31.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/orders-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="31.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/report-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="31.0" layoutY="528.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/expired-icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="231.0" layoutY="74.0" text="User ID :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtEmail" layoutX="231.0" layoutY="117.0" promptText="Email Address" />
+      <JFXTextField fx:id="txtPassword" layoutX="392.0" layoutY="168.0" promptText="Password" />
+      <JFXButton layoutX="231.0" layoutY="213.0" onAction="#btnAddUserOnAction" style="-fx-background-color: #5f27cd;" text="Add User" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <TableView layoutX="232.0" layoutY="259.0" prefHeight="344.0" prefWidth="667.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="84.00001525878906" text="ID" />
+          <TableColumn fx:id="colEmail" prefWidth="113.5999755859375" text="Email" />
+            <TableColumn fx:id="colPassword" prefWidth="112.79998779296875" text="Password" />
+            <TableColumn fx:id="colUsername" prefWidth="111.199951171875" text="Username" />
+            <TableColumn fx:id="colEmployeeId" prefWidth="110.40008544921875" text="Employee ID" />
+            <TableColumn fx:id="colAction" prefWidth="139.199951171875" text="Action" />
+        </columns>
+      </TableView>
+      <JFXTextField fx:id="txtId" layoutX="298.0" layoutY="72.0" promptText="id" />
+      <JFXTextField fx:id="txtEmployeeId" layoutX="392.0" layoutY="117.0" promptText="employee id" />
+   </children>
+</AnchorPane>

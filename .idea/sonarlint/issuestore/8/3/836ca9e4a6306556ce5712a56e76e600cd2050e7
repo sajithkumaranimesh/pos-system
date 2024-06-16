@@ -1,0 +1,40 @@
+
+	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µ¤×„‚2J$cf439cb3-a59a-43e5-a935-1a3772b3e918
+	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µ¤×„‚2J$c71e1f43-3ff3-4ad3-85bf-4039ae578bf7
+	java:S112s"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µ¤×„‚2J$f9724633-7d6d-4d76-8ae0-171c0365842d
+	java:S112…"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µ¤×„‚2J$f0dbfa4d-51fc-4606-8a46-5081d0855ca5
+q
+java:S3740 "/Provide the parametrized type for this generic.(¬ı±J8µ¤×„‚2J$84f13832-491c-4e62-b4ea-42170396ac4a
+w
+java:S3740!"/Provide the parametrized type for this generic.(ˆØÎŒıÿÿÿÿ8µ¤×„‚2J$abcdd8ac-7fc6-48fb-87e4-bb57713f4b5d
+w
+java:S3740""/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ8µ¤×„‚2J$6908ebed-3c1c-4071-86fa-95c42b672fd4
+q
+java:S3740#"/Provide the parametrized type for this generic.(ï÷ãt8µ¤×„‚2J$8f552864-8221-4c59-89a1-fa99c7636a4a
+–
+java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8µ¤×„‚2J$627a0474-9b8f-4573-90d8-7468a582d6b3
+›
+java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8µ¤×„‚2J$f93c7ba4-a808-4fe5-86df-18d400e3d6c8
+”
+java:S1104"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8µ¤×„‚2J$21810038-e51b-4cd2-82d6-57bdd22a6d99
+›
+java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äİìÿÿÿÿÿ8µ¤×„‚2J$d57b496b-e0ab-4a13-a206-96b1e51b9d3c
+
+java:S1104 "\Make tblCategoryTable a static final constant or non-public and provide accessors if needed.(¬ı±J8µ¤×„‚2J$64befdb4-5b3a-40cf-81b9-820359d7698d
+¡
+java:S1104!"YMake colCategoryId a static final constant or non-public and provide accessors if needed.(ˆØÎŒıÿÿÿÿ8µ¤×„‚2J$d7cd79d9-491e-400f-b00c-eafa6ea63c4f
+›
+java:S1104""SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ8µ¤×„‚2J$6713523f-fd4d-44ad-8d86-64dcb50c1973
+—
+java:S1104#"UMake colAction a static final constant or non-public and provide accessors if needed.(ï÷ãt8µ¤×„‚2J$5eae8a64-bebd-4d62-8574-bcac71507a08
+r	java:S106D"+Replace this use of System.out by a logger.(ß‰”ıÿÿÿÿ8Ô¤×„‚2J$25dbe483-7590-44f2-b531-6e03c46724e0
+z
+java:S1172M"2Remove this unused method parameter "actionEvent".(ƒ¿ÍÉøÿÿÿÿ8ä¤×„‚2J$bbe044bd-f3bc-4538-88c0-bce94802c568
+r	java:S106R"+Replace this use of System.out by a logger.(ß‰”ıÿÿÿÿ8ä¤×„‚2J$4bde9d26-b3a2-454d-ad9b-d6fa92bbebe4
+u
+java:S1172d"2Remove this unused method parameter "actionEvent".(Í³›8ä¤×„‚2J$3a35d5f1-bdd5-4916-9c6b-e658f7e22bda
+r	java:S106m"+Replace this use of System.out by a logger.(ß‰”ıÿÿÿÿ8ä¤×„‚2J$2cdf1451-874e-499b-bf83-7fbe750b3c6b
+u
+java:S1172w"2Remove this unused method parameter "actionEvent".(àÌÇ¬8ä¤×„‚2J$c161e462-4f72-4168-86ca-37c56b790554
+n	java:S106€"+Replace this use of System.out by a logger.(ƒõ‹á8ô¤×„‚2J$3910db64-c076-4a4c-9298-c97980f1ada1
+s	java:S106‚"+Replace this use of System.out by a logger.(ˆşïøÿÿÿÿ8ô¤×„‚2J$af644be9-ec0d-4d78-b8b0-8f56d75f61f2
