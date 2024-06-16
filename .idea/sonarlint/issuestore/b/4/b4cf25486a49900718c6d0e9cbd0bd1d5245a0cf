@@ -36,12 +36,12 @@ java:S1104&"SMake colName a static final constant or non-public and provide acc
 java:S1104'"TMake colEmail a static final constant or non-public and provide accessors if needed.(ƒäÆ8—ªï‡‚2J$d7d33474-5e71-4821-ac40-85ac9ec2ebb9
 
 java:S1104("VMake colCompany a static final constant or non-public and provide accessors if needed.(°Äˆ´ÿÿÿÿÿ8—ªï‡‚2J$0cbe285f-30d6-4dd6-b1a8-d5dc9ae5ae9c
-
-java:S2095w"GUse try-with-resources or close this "Statement" in a "finally" clause.(íñ¥™ÿÿÿÿÿ8§ªï‡‚2J$6fa58c87-b736-45ac-829b-bdd92722b9c4
-—
-java:S2095c"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÈÚì¦úÿÿÿÿ8§ªï‡‚2J$1ccf4ba1-6c1b-41ed-9cee-8174ee5245d9
 ‹
 java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(—éùí8§ªï‡‚2J$1a5d0bcb-b0e7-4f47-92c9-b0d3b64ddb68
+—
+java:S2095c"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÈÚì¦úÿÿÿÿ8§ªï‡‚2J$1ccf4ba1-6c1b-41ed-9cee-8174ee5245d9
+
+java:S2095w"GUse try-with-resources or close this "Statement" in a "finally" clause.(íñ¥™ÿÿÿÿÿ8§ªï‡‚2J$6fa58c87-b736-45ac-829b-bdd92722b9c4
 
 java:S2095H"GUse try-with-resources or close this "Statement" in a "finally" clause.(°¬»¬øÿÿÿÿ8§ªï‡‚2J$175e2f5c-bbcc-4a98-acc7-54e46693ec0c
 m	java:S106P"+Replace this use of System.out by a logger.(•Ï¡½8§ªï‡‚2J$e06563cf-3d0a-4d9f-b0ce-5eb6b69c4927

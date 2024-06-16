@@ -39,14 +39,14 @@ java:S1104%"VMake colAddress a static final constant or non-public and provide 
 java:S1104&"UMake colAction a static final constant or non-public and provide accessors if needed.(ï÷ãt8²ëšÿ2J$0b0c3faa-31f2-4f83-96b5-3a38d7491c6a
 Ÿ
 java:S1104'"\Make tblEmployeeTable a static final constant or non-public and provide accessors if needed.(ìñùø8²ëšÿ2J$c2cfca87-662d-444a-9774-95bb637ec450
-
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Œôƒ†øÿÿÿÿ8Îëšÿ2J$713d31b0-496b-436b-9114-fed2c944df3d
 —
 java:S2095c"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(é«Ï‘ÿÿÿÿÿ8Îëšÿ2J$d5ed433e-1adc-424e-9606-540f9681f554
-
-java:S2095G"GUse try-with-resources or close this "Statement" in a "finally" clause.(Î²ªûÿÿÿÿ8Îëšÿ2J$08905a2c-1251-49e0-b962-b10db868ad58
 Š
 java:S2095v"GUse try-with-resources or close this "Statement" in a "finally" clause.(ú³Ì»8Îëšÿ2J$79faeba6-5613-4820-a2ba-6aca61ede408
+
+java:S2095G"GUse try-with-resources or close this "Statement" in a "finally" clause.(Î²ªûÿÿÿÿ8Îëšÿ2J$08905a2c-1251-49e0-b962-b10db868ad58
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Œôƒ†øÿÿÿÿ8Îëšÿ2J$713d31b0-496b-436b-9114-fed2c944df3d
 m	java:S106O"+Replace this use of System.out by a logger.(¼¡¨ò8Îëšÿ2J$efe659a6-0f7c-4919-9916-56fece9aac7b
 u
 java:S1172X"2Remove this unused method parameter "actionEvent".(õ†¦û8Îëšÿ2J$82bd724d-dcc7-4e77-b91e-a28b41d3aafe
