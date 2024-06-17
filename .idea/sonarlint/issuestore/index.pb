@@ -25,8 +25,6 @@ y
 Isrc/main/java/edu/icet/clothingcrm/controller/CategoryFormController.java,8\3\836ca9e4a6306556ce5712a56e76e600cd2050e7
 x
 Hsrc/main/java/edu/icet/clothingcrm/controller/ProductFormController.java,0\8\08c32783d33403b915e546928c0dbb28b1e4c1f4
-v
-Fsrc/main/java/edu/icet/clothingcrm/controller/OrderFormController.java,4\f\4f514bd90b1b96819c678ab66c1b43aa7809f190
 w
 Gsrc/main/java/edu/icet/clothingcrm/controller/ReportFormController.java,a\6\a6c5257d1b07cf9323d284a9791148eaf585ff66
 {
@@ -35,8 +33,6 @@ X
 (src/main/resources/view/report-form.fxml,b\2\b22fd8ccee27fe9b992a0ed3276a92c717402efb
 [
 +src/main/resources/view/dashboard-form.fxml,8\6\8624e946637a8f7f91066d3635229d905c374916
-W
-'src/main/resources/view/order-form.fxml,9\0\9010a8bc332ead2472c6116c6fd94bb4fa2299fd
 \
 ,src/main/resources/view/expiration-form.fxml,3\3\333a28a818af8f25ab2eb3bc29341c829cb5e22a
 d
@@ -57,3 +53,9 @@ d
 4src/main/java/edu/icet/clothingcrm/dto/Supplier.java,e\4\e4bbce6896463750902c7ce09bda9fc52ec9c50b
 l
 <src/main/java/edu/icet/clothingcrm/dto/tm/SupplierTable.java,a\8\a8e87f4e4f22d219d94339c43e9f13b716c5ef1c
+{
+Ksrc/main/java/edu/icet/clothingcrm/controller/PlaceOrderFormController.java,9\9\99e7b46f710667ed757553b76db7f8e92b895234
+u
+Esrc/main/java/edu/icet/clothingcrm/controller/EmployeeController.java,2\d\2d6cf49e32afa18e209fea59e0a5edccbbd0566e
+u
+Esrc/main/java/edu/icet/clothingcrm/controller/CategoryController.java,3\d\3dc36efdf022fe1cd889d9fce3b48ad89f86953f

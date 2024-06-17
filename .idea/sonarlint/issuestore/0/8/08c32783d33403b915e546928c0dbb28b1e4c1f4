@@ -1,9 +1,38 @@
 
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8âª¡¶2J$22e0ee3f-348b-4b99-81a1-7446b4f4f42c
+	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8§°’¨‚2J$d93e4677-9f2d-4e9e-95da-7ce2c7412fe1
+w
+java:S3740"/Provide the parametrized type for this generic.(ÌËžªøÿÿÿÿ8§°’¨‚2J$4ed21254-e966-4098-b0bf-702bc5384e66
+q
+java:S3740 "/Provide the parametrized type for this generic.(“öú8§°’¨‚2J$ef2980d2-469b-441d-a3d0-7bd5c1d9a5e3
+–
+java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8§°’¨‚2J$e9ed6c14-3370-4c74-829c-4b1dcca2c2a8
 ›
-java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äÝìÿÿÿÿÿ8âª¡¶2J$66398a79-c35f-49b3-ab13-0e50410082b2
+java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8§°’¨‚2J$cf07d135-d962-4daa-b712-bdee50f46e13
+”
+java:S1104"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8§°’¨‚2J$64f5237c-2fc2-426a-873c-17e152ffd84b
+›
+java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äÝìÿÿÿÿÿ8§°’¨‚2J$29d8a796-6919-4752-8a2d-c67c851e7912
+›
+java:S1104"SMake txtSize a static final constant or non-public and provide accessors if needed.(¹«¦ÿùÿÿÿÿ8§°’¨‚2J$6b3186f7-a37c-4458-af3e-f399e25a455a
 œ
-java:S1104"TMake txtPrice a static final constant or non-public and provide accessors if needed.(˜¹•ýÿÿÿÿ8âª¡¶2J$b15e978c-2314-4a7d-b00b-81aa94afd392
+java:S1104"TMake txtPrice a static final constant or non-public and provide accessors if needed.(˜¹•ýÿÿÿÿ8§°’¨‚2J$9a1ba421-153a-4a63-b7a5-879e9df2ed80
+ 
+java:S1104"]Make txtQuantityOnHand a static final constant or non-public and provide accessors if needed.(ôÕ·½8§°’¨‚2J$36ea142a-5a4a-48b1-a4ac-6dc7b08699c7
+¡
+java:S1104"YMake cmbCategoryId a static final constant or non-public and provide accessors if needed.(ÌËžªøÿÿÿÿ8§°’¨‚2J$cc3d2a04-9483-4049-9615-a83f794bba8e
+›
+java:S1104 "YMake cmbSupplierId a static final constant or non-public and provide accessors if needed.(“öú8§°’¨‚2J$ac627ad9-a173-4818-a4d0-9d85ae3b538d
+q
+java:S2095C"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(µ‡Äýÿÿÿÿ8åµ˜¨‚2
+É
+java:S1186K"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(þ†…€þÿÿÿÿ8·°’¨‚2J$9706ab4d-ba00-4292-9ecd-e5242a6497cb
+Ä
+java:S1186N"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á‹é†8·°’¨‚2J$6aa55e14-e950-4f60-b7e2-0cf566fdb7c9
+t
+java:S1602-",Remove useless curly braces around statement(³°½Ãÿÿÿÿÿ8·°’¨‚2J$46968102-0f49-4d5d-9c71-b957d13364c9
+m	java:S1060"+Replace this use of System.out by a logger.(Óú„•8·°’¨‚2J$c96679bb-a3cc-41d7-a7c8-94f0a1ca87a3
 u
-java:S1172"2Remove this unused method parameter "actionEvent".(Ëôûã8âª¡¶2J$f8ca09b1-2f1e-4aec-96e5-bb85d994823b
-r	java:S106"+Replace this use of System.out by a logger.(Ø¦ˆÞúÿÿÿÿ8âª¡¶2J$a65f6269-3521-4b01-9fad-08e7b82c1310
+java:S11724"2Remove this unused method parameter "actionEvent".(Ëôûã8·°’¨‚2J$c1234cd7-7383-4e32-a8aa-19b7b9335e06
+r	java:S106>"+Replace this use of System.out by a logger.(Ø¦ˆÞúÿÿÿÿ8·°’¨‚2J$1bba6c94-5893-4962-b2d3-98932d9205a4
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ïµ˜¨‚2

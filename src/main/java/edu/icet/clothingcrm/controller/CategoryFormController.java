@@ -34,18 +34,19 @@ public class CategoryFormController implements Initializable {
     public TableColumn colName;
     public TableColumn colAction;
 
-    private List<Category> categoryList;
+    //private List<Category> categoryList;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         colCategoryId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
-        loadCategory();
+
         loadCategoryTable();
     }
 
     private void loadCategoryTable() {
         ObservableList<Category> tableData = FXCollections.observableArrayList();
+        List<Category> categoryList = CategoryController.getInstance().loadCategory();
         categoryList.forEach(category -> {
             CategoryTable categoryTable = new CategoryTable(
                     category.getId(),
@@ -56,22 +57,7 @@ public class CategoryFormController implements Initializable {
         tblCategoryTable.setItems(tableData);
     }
 
-    private void loadCategory() {
-        categoryList = new ArrayList<>();
-        try {
-            ResultSet resultSet = DBConnection.getInstance().getConnection().createStatement().executeQuery("SELECT * FROM category");
-            while (resultSet.next()){
-                Category category = new Category(
-                        resultSet.getInt(1),
-                        resultSet.getString(2)
-                );
-                System.out.println(category);
-                categoryList.add(category);
-            }
-        } catch (SQLException | ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-    }
+
 
 
     public void btnAddCategoryOnAction(ActionEvent actionEvent) {
@@ -88,7 +74,7 @@ public class CategoryFormController implements Initializable {
             psTm.setString(2, category.getName());
             psTm.execute();
 
-            loadCategory();
+            //loadCategory();
             loadCategoryTable();
             clearText();
 
@@ -120,7 +106,7 @@ public class CategoryFormController implements Initializable {
         try {
             boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM category where id='" + txtId.getText() + "'");
 
-            loadCategory();
+            //loadCategory();
             loadCategoryTable();
             clearText();
 

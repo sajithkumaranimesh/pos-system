@@ -4,6 +4,9 @@ import com.jfoenix.controls.JFXTextField;
 import edu.icet.clothingcrm.db.DBConnection;
 import edu.icet.clothingcrm.dto.Employee;
 import edu.icet.clothingcrm.dto.tm.EmployeeTable;
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -12,13 +15,17 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.util.Duration;
 
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.SimpleDateFormat;
+import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -38,7 +45,7 @@ public class EmployeeFormController implements Initializable {
     public TableColumn colAction;
     public TableView tblEmployeeTable;
 
-    private List<Employee> employeeList;
+    //private List<Employee> employeeList;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -46,12 +53,31 @@ public class EmployeeFormController implements Initializable {
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
         colEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
-        loadEmployees();
+        loadDateAndTime();
+
         loadEmoloyeeTable();
+    }
+
+    private void loadDateAndTime() {
+        Date date = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        lblDate.setText(simpleDateFormat.format(date));
+
+        Timeline timeline = new Timeline(new KeyFrame(Duration.ZERO,e->{
+            LocalTime time = LocalTime.now();
+            lblTime.setText(
+                    time.getHour()+" : "+time.getMinute()+" : "+ time.getSecond()
+            );
+        }),
+                new KeyFrame(Duration.seconds(1))
+        );
+        timeline.setCycleCount(Animation.INDEFINITE);
+        timeline.play();
     }
 
     private void loadEmoloyeeTable() {
         ObservableList<Employee> tableData = FXCollections.observableArrayList();
+        List<Employee> employeeList = EmployeeController.getInstance().loadEmployees();
 
         employeeList.forEach(employee -> {
             EmployeeTable employeeTable = new EmployeeTable(
@@ -65,24 +91,7 @@ public class EmployeeFormController implements Initializable {
         tblEmployeeTable.setItems(tableData);
     }
 
-    private void loadEmployees() {
-        employeeList = new ArrayList<>();
-        try {
-            ResultSet resultSet = DBConnection.getInstance().getConnection().createStatement().executeQuery("SELECT * FROM employee");
-            while (resultSet.next()) {
-                Employee employee = new Employee(
-                        resultSet.getInt(1),
-                        resultSet.getString(2),
-                        resultSet.getString(3),
-                        resultSet.getString(4)
-                );
-                System.out.println(employee);
-                employeeList.add(employee);
-            }
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
+
 
 
     public void btnAddEmployeeOnAction(ActionEvent actionEvent) {
@@ -103,7 +112,7 @@ public class EmployeeFormController implements Initializable {
             psTm.setString(4, employee.getAddress());
             psTm.execute();
 
-            loadEmployees();
+            //loadEmployees();
             loadEmoloyeeTable();
             clearText();
         } catch (ClassNotFoundException | SQLException e) {
@@ -140,7 +149,7 @@ public class EmployeeFormController implements Initializable {
         try {
             boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM employee where id='" + txtId.getText() + "'");
 
-            loadEmployees();
+            //loadEmployees();
             loadEmoloyeeTable();
             clearText();
 
