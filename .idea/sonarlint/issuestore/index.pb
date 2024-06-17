@@ -59,3 +59,5 @@ u
 Esrc/main/java/edu/icet/clothingcrm/controller/EmployeeController.java,2\d\2d6cf49e32afa18e209fea59e0a5edccbbd0566e
 u
 Esrc/main/java/edu/icet/clothingcrm/controller/CategoryController.java,3\d\3dc36efdf022fe1cd889d9fce3b48ad89f86953f
+u
+Esrc/main/java/edu/icet/clothingcrm/controller/SupplierController.java,2\7\27194d4ba2595a80d053d79fc41c34ee1bf4b7c9

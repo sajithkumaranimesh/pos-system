@@ -5,6 +5,7 @@ import com.jfoenix.controls.JFXTextField;
 import edu.icet.clothingcrm.db.DBConnection;
 import edu.icet.clothingcrm.dto.Category;
 import edu.icet.clothingcrm.dto.Product;
+import edu.icet.clothingcrm.dto.Supplier;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -34,7 +35,20 @@ public class ProductFormController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        loadSupplierIds();
         loadCategoryIds();
+    }
+
+    private void loadSupplierIds() {
+        List<Supplier> suppliers = SupplierController.getInstance().loadSupplier();
+
+        ObservableList<Integer> ids = FXCollections.observableArrayList();
+
+        suppliers.forEach(supplier -> {
+            ids.add(supplier.getId());
+        });
+        System.out.println(ids);
+        cmbSupplierId.setItems(ids);
     }
 
     private void loadCategoryIds() {

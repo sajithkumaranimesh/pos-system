@@ -39,7 +39,7 @@ public class SupplierFormController implements Initializable {
     public TableColumn colEmail;
     public TableColumn colCompany;
     
-    private List<Supplier> supplierList;
+    //private List<Supplier> supplierList;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -47,13 +47,15 @@ public class SupplierFormController implements Initializable {
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
         colEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
         colCompany.setCellValueFactory(new PropertyValueFactory<>("company"));
-        loadSupplier();
+
         loadSupplierTable();
     }
 
     private void loadSupplierTable() {
         ObservableList<Supplier> tableData = FXCollections.observableArrayList();
-        
+
+        List<Supplier> supplierList = SupplierController.getInstance().loadSupplier();
+
         supplierList.forEach(supplier -> {
             SupplierTable supplierTable = new SupplierTable(
                     supplier.getId(),
@@ -66,24 +68,7 @@ public class SupplierFormController implements Initializable {
         tblSupplierTable.setItems(tableData);
     }
 
-    private void loadSupplier() {
-        supplierList = new ArrayList<>();
-        try {
-            ResultSet resultSet = DBConnection.getInstance().getConnection().createStatement().executeQuery("SELECT * FROM supplier");
-            while (resultSet.next()){
-                Supplier supplier = new Supplier(
-                        resultSet.getInt(1),
-                        resultSet.getString(2),
-                        resultSet.getString(3),
-                        resultSet.getString(4)
-                );
-                System.out.println(supplier);
-                supplierList.add(supplier);
-            }
-        } catch (SQLException | ClassNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-    }
+
 
     public void btnAddSupplierOnAction(ActionEvent actionEvent) {
         Supplier supplier = new Supplier(
@@ -103,7 +88,7 @@ public class SupplierFormController implements Initializable {
             psTm.setString(4,supplier.getCompany());
             psTm.execute();
 
-            loadSupplier();
+            //loadSupplier();
             loadSupplierTable();
             clearText();
         } catch (SQLException e) {
@@ -140,7 +125,7 @@ public class SupplierFormController implements Initializable {
         try {
             boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM supplier where id='" + txtId.getText() + "'");
 
-            loadSupplier();
+            //loadSupplier();
             loadSupplierTable();
             clearText();
             if(execute){
