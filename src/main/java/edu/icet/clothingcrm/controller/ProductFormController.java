@@ -70,17 +70,24 @@ public class ProductFormController implements Initializable {
                 txtSize.getText(),
                 txtPrice.getText(),
                 txtQuantityOnHand.getText(),
-                Integer.parseInt((String) cmbCategoryId.getValue()),
-                Integer.parseInt((String) cmbSupplierId.getValue())
+                Integer.parseInt(String.valueOf(cmbCategoryId.getValue())),
+                Integer.parseInt(String.valueOf(cmbSupplierId.getValue()))
         );
         System.out.println(product);
 
         Connection connection = null;
         try {
             connection = DBConnection.getInstance().getConnection();
-            PreparedStatement psTm = connection.prepareStatement("INSERT INTO product VALUES (?,?)");
-            psTm.setString(1,product.getName());
-            psTm.setString(2,product.getPrice());
+            PreparedStatement psTm = connection.prepareStatement("INSERT INTO product VALUES (?,?,?,?,?,?,?)");
+            psTm.setInt(1,product.getId());
+            psTm.setString(2,product.getName());
+            psTm.setString(3,product.getSize());
+            psTm.setString(4,product.getPrice());
+            psTm.setString(5,product.getQuantityOnHand());
+            psTm.setInt(6,product.getCategoryId());
+            psTm.setInt(7,product.getSupplierId());
+            psTm.execute();
+
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
         }

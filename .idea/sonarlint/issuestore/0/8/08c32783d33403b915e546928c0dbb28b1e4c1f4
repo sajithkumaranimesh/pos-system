@@ -1,41 +1,41 @@
 
-	java:S112U"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Äîò­‚2J$3468df35-7c49-460c-ac9a-ab4ecebfa154
+	java:S112\"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Æè­®‚2J$f4226ee6-a7ae-4d0d-bedb-0496d1566079
 w
-java:S3740 "/Provide the parametrized type for this generic.(ÌËªøÿÿÿÿ8Äîò­‚2J$a53aff46-1836-4fa8-95fd-0a8ba8dbce99
+java:S3740 "/Provide the parametrized type for this generic.(ÌËªøÿÿÿÿ8Öè­®‚2J$afd18c38-eec0-4810-999d-92b95ff4fa8c
 q
-java:S3740!"/Provide the parametrized type for this generic.(“öú8Äîò­‚2J$596eba38-c5b2-4a6b-b96b-62b0043b0e8e
+java:S3740!"/Provide the parametrized type for this generic.(“öú8Öè­®‚2J$1a1a498c-527e-471b-96af-044b435cffe4
 –
-java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8Äîò­‚2J$fa3d0945-f398-4f91-b8c8-2443b65c5d15
+java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8Öè­®‚2J$2f50f6a6-a4fd-4d13-80f3-f70bd10c854a
 ›
-java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8Äîò­‚2J$d70cf247-717c-4b9c-80ab-0279858c3be5
+java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8Öè­®‚2J$e2bbb9d7-e9ed-4f4c-9a71-95de10acca04
 ”
-java:S1104"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8Äîò­‚2J$c8db435f-3afa-4c03-8bff-feee5dfe044a
+java:S1104"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8Öè­®‚2J$11c76a93-ef99-4da1-9efe-8e2fd236facd
 ›
-java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äİìÿÿÿÿÿ8Äîò­‚2J$f7eeb527-b59b-4562-8112-e207b0888f91
+java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äİìÿÿÿÿÿ8Öè­®‚2J$18a9ef37-2339-402f-9273-fd8e8acfc2ad
 ›
-java:S1104"SMake txtSize a static final constant or non-public and provide accessors if needed.(¹«¦ÿùÿÿÿÿ8Äîò­‚2J$8f9c1f61-a90c-4a82-80ed-a0a03816c0f4
+java:S1104"SMake txtSize a static final constant or non-public and provide accessors if needed.(¹«¦ÿùÿÿÿÿ8Öè­®‚2J$14a6d7af-c824-4831-9138-55fde058493b
 œ
-java:S1104"TMake txtPrice a static final constant or non-public and provide accessors if needed.(˜¹•ıÿÿÿÿ8Äîò­‚2J$f3627229-8396-4ec7-b2fe-94055a303d6f
+java:S1104"TMake txtPrice a static final constant or non-public and provide accessors if needed.(˜¹•ıÿÿÿÿ8Öè­®‚2J$c8c202b5-dc8c-4e3f-81e4-2c8d13832865
  
-java:S1104"]Make txtQuantityOnHand a static final constant or non-public and provide accessors if needed.(ôÕ·½8Äîò­‚2J$ef2401b6-14e1-4258-94e1-047a913ecd06
+java:S1104"]Make txtQuantityOnHand a static final constant or non-public and provide accessors if needed.(ôÕ·½8Öè­®‚2J$21233564-5840-44d1-a27e-4da99e8c24c1
 ¡
-java:S1104 "YMake cmbCategoryId a static final constant or non-public and provide accessors if needed.(ÌËªøÿÿÿÿ8Äîò­‚2J$a9cbe3bf-5627-4d34-938a-005d1d742322
+java:S1104 "YMake cmbCategoryId a static final constant or non-public and provide accessors if needed.(ÌËªøÿÿÿÿ8Öè­®‚2J$b253f47f-65e4-44e5-9bd4-0949b86ac1fc
 ›
-java:S1104!"YMake cmbSupplierId a static final constant or non-public and provide accessors if needed.(“öú8Äîò­‚2J$a1685933-7a8a-42a3-9b91-0ef5399538a4
-q
-java:S2095Q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(µ‡Äıÿÿÿÿ8ı÷ù­‚2
+java:S1104!"YMake cmbSupplierId a static final constant or non-public and provide accessors if needed.(“öú8Öè­®‚2J$7321381f-2108-468a-876e-f4ac50f7be1c
+—
+java:S2095Q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(İõµ£øÿÿÿÿ8æè­®‚2J$13f3c51c-04c0-4699-8e6d-0a7506591768
 É
-java:S1186Y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ş†…€şÿÿÿÿ8ãîò­‚2J$84fda0fa-fc55-46ee-a50b-98942073384d
+java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ş†…€şÿÿÿÿ8æè­®‚2J$111a801a-c1c2-43d8-a579-6cd5f3ea804b
 Ä
-java:S1186\"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á‹é†8ãîò­‚2J$32c06c5b-112e-44ce-90af-ff6dfd20b7ea
+java:S1186c"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á‹é†8æè­®‚2J$a007f150-c3d2-4cc9-9609-659516d79184
 t
-java:S1602/",Remove useless curly braces around statement(œò¯ûÿÿÿÿÿ8ãîò­‚2J$b2915730-ead1-4abf-87ad-29db986ad3ce
-m	java:S1062"+Replace this use of System.out by a logger.(Óú„•8ãîò­‚2J$84b0ad46-f721-4021-a28f-b7ae67a3a7ba
+java:S1602/",Remove useless curly braces around statement(œò¯ûÿÿÿÿÿ8æè­®‚2J$b493a57a-225e-4b19-b1eb-9c0eda161a67
+m	java:S1062"+Replace this use of System.out by a logger.(Óú„•8æè­®‚2J$a2283705-e706-46a2-90ed-80d8f59deef0
 t
-java:S1602;",Remove useless curly braces around statement(³°½Ãÿÿÿÿÿ8ãîò­‚2J$d81dbc8f-2ca0-4247-866c-c35114f09b33
-m	java:S106>"+Replace this use of System.out by a logger.(Óú„•8ãîò­‚2J$d370df5f-a50c-4b0e-b3d4-2c8bebab690f
+java:S1602;",Remove useless curly braces around statement(³°½Ãÿÿÿÿÿ8õè­®‚2J$8fff4c0d-d170-4df9-a8ea-83e113b73cb7
+m	java:S106>"+Replace this use of System.out by a logger.(Óú„•8õè­®‚2J$db9140af-992f-4410-9c8e-614adcb0d7dc
 u
-java:S1172B"2Remove this unused method parameter "actionEvent".(Ëôûã8ãîò­‚2J$74fc47d0-c111-4361-914b-813d98522913
-r	java:S106L"+Replace this use of System.out by a logger.(Ø¦ˆŞúÿÿÿÿ8ãîò­‚2J$d03a75d3-e99b-4d04-aedc-3c187bb98d31
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8øù­‚2
+java:S1172B"2Remove this unused method parameter "actionEvent".(Ëôûã8õè­®‚2J$0facdcb1-57c9-4068-b398-280196eba820
+r	java:S106L"+Replace this use of System.out by a logger.(Ø¦ˆŞúÿÿÿÿ8õè­®‚2J$666614b1-0be3-4ea1-8821-f8bf2349b7ab
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Û¶®‚2J$03be80a2-551a-46ec-956c-847db852ffa7
