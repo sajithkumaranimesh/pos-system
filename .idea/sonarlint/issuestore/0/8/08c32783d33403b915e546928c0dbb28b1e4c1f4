@@ -1,41 +1,83 @@
 
-	java:S112\"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Æè­®‚2J$f4226ee6-a7ae-4d0d-bedb-0496d1566079
+Ž	java:S112Š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Å‚‚°‚2J$448b395c-aaca-4700-82f4-32878d4f3d26
+Ž	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Å‚‚°‚2J$c585881a-2e43-4f1d-b7bf-084fee7dd98d
+Ž	java:S112¹"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Å‚‚°‚2J$dc1dcac6-32cc-48e8-b641-8a0a6a092b50
 w
-java:S3740 "/Provide the parametrized type for this generic.(ÌËžªøÿÿÿÿ8Öè­®‚2J$afd18c38-eec0-4810-999d-92b95ff4fa8c
+java:S3740%"/Provide the parametrized type for this generic.(ÌËžªøÿÿÿÿ8Å‚‚°‚2J$03e197b5-2e74-4511-94cd-466e3565fdbb
 q
-java:S3740!"/Provide the parametrized type for this generic.(“öú8Öè­®‚2J$1a1a498c-527e-471b-96af-044b435cffe4
+java:S3740&"/Provide the parametrized type for this generic.(“öú8Å‚‚°‚2J$7ae90cc8-6c98-4e26-9baa-34788dc657c0
+q
+java:S3740("/Provide the parametrized type for this generic.(‘¿—8Å‚‚°‚2J$69185a04-d493-4c1c-9d02-95bd7823a1a7
+r
+java:S3740)"/Provide the parametrized type for this generic.(“ÐÃâ8Å‚‚°‚2J$a23c90da-4dfe-4ba4-b854-359c1fddb87d
+w
+java:S3740*"/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ8Å‚‚°‚2J$4323fb35-44b7-4e06-b970-6be99f87e3bb
+r
+java:S3740+"/Provide the parametrized type for this generic.(«–Ê8Å‚‚°‚2J$9deae718-bede-44b1-9920-52beab5eacc3
+r
+java:S3740,"/Provide the parametrized type for this generic.(Æ¦Œê8Å‚‚°‚2J$40f5d012-60d4-44d7-b428-0323bed22053
+w
+java:S3740-"/Provide the parametrized type for this generic.(Ÿ¿Ò×üÿÿÿÿ8Å‚‚°‚2J$5bee44c6-9c87-4ee1-b092-c2ac4f2c15cf
+r
+java:S3740."/Provide the parametrized type for this generic.(Ÿœ¼‘8Å‚‚°‚2J$ae76d7c6-3e2d-4d4f-a4cd-d94400014a01
+w
+java:S3740/"/Provide the parametrized type for this generic.(ˆØÎŒýÿÿÿÿ8Å‚‚°‚2J$d118c180-4371-40fc-80d4-4a50c92cd7ca
 –
-java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8Öè­®‚2J$2f50f6a6-a4fd-4d13-80f3-f70bd10c854a
+java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8Ô‚‚°‚2J$6afd7ea8-b188-452a-b5ff-2372c2bbecef
 ›
-java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8Öè­®‚2J$e2bbb9d7-e9ed-4f4c-9a71-95de10acca04
+java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8Ô‚‚°‚2J$a79df8eb-4826-4403-8a21-51181ade6011
 ”
-java:S1104"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8Öè­®‚2J$11c76a93-ef99-4da1-9efe-8e2fd236facd
+java:S1104 "QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8Ô‚‚°‚2J$edebbf1d-fb46-4426-aa43-1f7ff67850fc
 ›
-java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äÝìÿÿÿÿÿ8Öè­®‚2J$18a9ef37-2339-402f-9273-fd8e8acfc2ad
+java:S1104!"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äÝìÿÿÿÿÿ8Ô‚‚°‚2J$5b45766b-0e1d-4a16-a12c-2fa5bfad4df3
 ›
-java:S1104"SMake txtSize a static final constant or non-public and provide accessors if needed.(¹«¦ÿùÿÿÿÿ8Öè­®‚2J$14a6d7af-c824-4831-9138-55fde058493b
+java:S1104""SMake txtSize a static final constant or non-public and provide accessors if needed.(¹«¦ÿùÿÿÿÿ8Ô‚‚°‚2J$c489e0ee-14ca-44ed-99e1-b55e8372b0ad
 œ
-java:S1104"TMake txtPrice a static final constant or non-public and provide accessors if needed.(˜¹•ýÿÿÿÿ8Öè­®‚2J$c8c202b5-dc8c-4e3f-81e4-2c8d13832865
+java:S1104#"TMake txtPrice a static final constant or non-public and provide accessors if needed.(˜¹•ýÿÿÿÿ8Ô‚‚°‚2J$91c2ef3c-c390-4ee7-ba02-4729474932aa
  
-java:S1104"]Make txtQuantityOnHand a static final constant or non-public and provide accessors if needed.(ôÕ·½8Öè­®‚2J$21233564-5840-44d1-a27e-4da99e8c24c1
+java:S1104$"]Make txtQuantityOnHand a static final constant or non-public and provide accessors if needed.(ôÕ·½8Ô‚‚°‚2J$df385288-61ac-48e1-bb11-c2579466ceeb
 ¡
-java:S1104 "YMake cmbCategoryId a static final constant or non-public and provide accessors if needed.(ÌËžªøÿÿÿÿ8Öè­®‚2J$b253f47f-65e4-44e5-9bd4-0949b86ac1fc
+java:S1104%"YMake cmbCategoryId a static final constant or non-public and provide accessors if needed.(ÌËžªøÿÿÿÿ8Ô‚‚°‚2J$a4e418f9-9ae4-4ce2-a954-e387d08d123d
 ›
-java:S1104!"YMake cmbSupplierId a static final constant or non-public and provide accessors if needed.(“öú8Öè­®‚2J$7321381f-2108-468a-876e-f4ac50f7be1c
+java:S1104&"YMake cmbSupplierId a static final constant or non-public and provide accessors if needed.(“öú8Ô‚‚°‚2J$6df08bd1-5d69-4854-be85-fd51a857746f
+
+java:S1104("[Make tblProductTable a static final constant or non-public and provide accessors if needed.(‘¿—8Ô‚‚°‚2J$b07c4602-21a2-472b-9154-cc352be12177
+”
+java:S1104)"QMake colId a static final constant or non-public and provide accessors if needed.(“ÐÃâ8Ô‚‚°‚2J$cd05e7b9-03ed-414e-96a7-ed89d0698d54
+›
+java:S1104*"SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ8Ô‚‚°‚2J$382386a2-6272-420c-ac0e-820f05fd083e
+–
+java:S1104+"SMake colSize a static final constant or non-public and provide accessors if needed.(«–Ê8Ô‚‚°‚2J$bb6f7071-557a-44ba-8c15-4b0a4c1fb659
 —
-java:S2095Q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ýõµ£øÿÿÿÿ8æè­®‚2J$13f3c51c-04c0-4699-8e6d-0a7506591768
-É
-java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(þ†…€þÿÿÿÿ8æè­®‚2J$111a801a-c1c2-43d8-a579-6cd5f3ea804b
-Ä
-java:S1186c"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á‹é†8æè­®‚2J$a007f150-c3d2-4cc9-9609-659516d79184
+java:S1104,"TMake colPrice a static final constant or non-public and provide accessors if needed.(Æ¦Œê8Ô‚‚°‚2J$ebc61723-fc4d-4856-a9f9-35d968107e86
+¥
+java:S1104-"]Make colQuantityOnHand a static final constant or non-public and provide accessors if needed.(Ÿ¿Ò×üÿÿÿÿ8Ô‚‚°‚2J$a4c29aa0-79a8-4132-8e60-d15359a35fef
+œ
+java:S1104."YMake colSupplierId a static final constant or non-public and provide accessors if needed.(Ÿœ¼‘8Ô‚‚°‚2J$f5e6ad12-c1de-497c-a0e6-49b465fd4051
+¡
+java:S1104/"YMake colCategoryId a static final constant or non-public and provide accessors if needed.(ˆØÎŒýÿÿÿÿ8Ô‚‚°‚2J$97593540-f560-412d-aa1d-99e9d5298a29
+—
+java:S2095|"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ýõµ£øÿÿÿÿ8ô‚‚°‚2J$4437a45a-0963-46af-b0d3-4011780d2071
+
+java:S2095­"GUse try-with-resources or close this "Statement" in a "finally" clause.(‹õ•¥ýÿÿÿÿ8ô‚‚°‚2J$406e0c95-0773-4505-a0bb-16a78157ea48
+‹
+java:S2095‘"GUse try-with-resources or close this "Statement" in a "finally" clause.(ð÷¡8ô‚‚°‚2J$3e9616f9-0ae5-478e-b591-63808aa32bbd
 t
-java:S1602/",Remove useless curly braces around statement(œò¯ûÿÿÿÿÿ8æè­®‚2J$b493a57a-225e-4b19-b1eb-9c0eda161a67
-m	java:S1062"+Replace this use of System.out by a logger.(Óú„•8æè­®‚2J$a2283705-e706-46a2-90ed-80d8f59deef0
+java:S1602Z",Remove useless curly braces around statement(œò¯ûÿÿÿÿÿ8ƒƒ‚°‚2J$e60dd51f-7ca1-4f4c-b1b6-094a9f0c5432
+m	java:S106]"+Replace this use of System.out by a logger.(Óú„•8ƒƒ‚°‚2J$367673a2-98a1-4ffa-bf55-edcaaab42d85
 t
-java:S1602;",Remove useless curly braces around statement(³°½Ãÿÿÿÿÿ8õè­®‚2J$8fff4c0d-d170-4df9-a8ea-83e113b73cb7
-m	java:S106>"+Replace this use of System.out by a logger.(Óú„•8õè­®‚2J$db9140af-992f-4410-9c8e-614adcb0d7dc
+java:S1602f",Remove useless curly braces around statement(³°½Ãÿÿÿÿÿ8ƒƒ‚°‚2J$b7025b7b-1b5f-49a9-8f4a-bd6c86ad7664
+m	java:S106i"+Replace this use of System.out by a logger.(Óú„•8ƒƒ‚°‚2J$0287d726-5366-4774-b652-5ebd1f8bcd4c
 u
-java:S1172B"2Remove this unused method parameter "actionEvent".(Ëôûã8õè­®‚2J$0facdcb1-57c9-4068-b398-280196eba820
-r	java:S106L"+Replace this use of System.out by a logger.(Ø¦ˆÞúÿÿÿÿ8õè­®‚2J$666614b1-0be3-4ea1-8821-f8bf2349b7ab
+java:S1172m"2Remove this unused method parameter "actionEvent".(Ëôûã8ƒƒ‚°‚2J$ba2b0ef5-c575-461e-943c-9bf2b7a800be
+r	java:S106w"+Replace this use of System.out by a logger.(Ø¦ˆÞúÿÿÿÿ8“ƒ‚°‚2J$ca6dbdba-61b5-44a2-881e-7250b4575281
+{
+java:S1172Ž"2Remove this unused method parameter "actionEvent".(þ†…€þÿÿÿÿ8“ƒ‚°‚2J$f65362cc-466c-4f36-977f-bdba74cd06a6
+s	java:S106œ"+Replace this use of System.out by a logger.(Ø¦ˆÞúÿÿÿÿ8“ƒ‚°‚2J$8e5bbf35-0c40-4d35-ad71-c0fc0f10776f
+v
+java:S1172«"2Remove this unused method parameter "actionEvent".(á‹é†8¢ƒ‚°‚2J$eb961068-a7ec-4a8e-9845-2365438a20e6
+	java:S125¯"<This block of commented-out lines of code should be removed.(ÑÈ¬œ8¢ƒ‚°‚2J$1ab6f9ca-24aa-43e6-90b7-25e56d8148ea
+s	java:S106´"+Replace this use of System.out by a logger.(ÂŠ¡ûÿÿÿÿ8¢ƒ‚°‚2J$55939272-0e7f-46ce-b9c8-781a47c733a5
+s	java:S106¶"+Replace this use of System.out by a logger.(€ÕÇøÿÿÿÿ8¢ƒ‚°‚2J$56886c97-80ef-4e3e-8021-2d4c7ddb160c
 s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Û¶®‚2J$03be80a2-551a-46ec-956c-847db852ffa7
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¢ƒ‚°‚2J$a6d86e6d-2349-4658-9dc3-7c70ed24f168

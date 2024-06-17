@@ -38,12 +38,12 @@ java:S1104,"VMake colAddress a static final constant or non-public and provide 
 java:S1104-"UMake colAction a static final constant or non-public and provide accessors if needed.(ï÷ãt8†ä§‚2J$dfe3895f-cdb1-4a78-9fca-a2c47560122a
 Ÿ
 java:S1104."\Make tblEmployeeTable a static final constant or non-public and provide accessors if needed.(ìñùø8†ä§‚2J$d3d1f2aa-131c-4e40-982a-842f43f486d1
-d
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ú³Ì»8´µ˜¨‚2
-j
-java:S2095–"GUse try-with-resources or close this "Statement" in a "finally" clause.(Œôƒ†øÿÿÿÿ8´µ˜¨‚2
 q
 java:S2095l"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(é«Ï‘ÿÿÿÿÿ8´µ˜¨‚2
+j
+java:S2095–"GUse try-with-resources or close this "Statement" in a "finally" clause.(Œôƒ†øÿÿÿÿ8´µ˜¨‚2
+d
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ú³Ì»8´µ˜¨‚2
 ~	java:S1250"<This block of commented-out lines of code should be removed.(Ÿ®¢Ÿ8‘¡’§‚2J$f3730ed3-7805-49f9-96ad-a6f958d8e6f8
 u
 java:S1172a"2Remove this unused method parameter "actionEvent".(õ†¦û8¥ä§‚2J$148d1195-0bbb-4055-8f42-9d11ca4ad501

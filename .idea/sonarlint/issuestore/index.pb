@@ -61,3 +61,7 @@ u
 Esrc/main/java/edu/icet/clothingcrm/controller/CategoryController.java,3\d\3dc36efdf022fe1cd889d9fce3b48ad89f86953f
 u
 Esrc/main/java/edu/icet/clothingcrm/controller/SupplierController.java,2\7\27194d4ba2595a80d053d79fc41c34ee1bf4b7c9
+t
+Dsrc/main/java/edu/icet/clothingcrm/controller/ProductController.java,a\0\a080914610203656f4d9a36744f34bd05bcc5ee3
+k
+;src/main/java/edu/icet/clothingcrm/dto/tm/ProductTable.java,b\d\bd3f93c3ca45195d9ae5caffb655e4e3475914cf

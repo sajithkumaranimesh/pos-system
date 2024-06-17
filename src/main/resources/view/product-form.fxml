@@ -137,17 +137,15 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </JFXButton>
-      <TableView layoutX="236.0" layoutY="271.0" prefHeight="344.0" prefWidth="667.0">
+      <TableView fx:id="tblProductTable" layoutX="236.0" layoutY="271.0" prefHeight="344.0" prefWidth="667.0">
          <columns>
-            <TableColumn prefWidth="58.39994812011719" text="ID" />
-            <TableColumn prefWidth="48.0" text="Name" />
-            <TableColumn prefWidth="66.4000244140625" text="Price" />
-            <TableColumn prefWidth="54.4000244140625" text="Size" />
-            <TableColumn prefWidth="76.800048828125" text="Quantitiy" />
-            <TableColumn prefWidth="40.79998779296875" text="Supplier" />
-            <TableColumn prefWidth="73.60003662109375" text="Category" />
-            <TableColumn prefWidth="73.60003662109375" text="Supplier ID" />
-            <TableColumn prefWidth="73.60003662109375" text="MFT Date" />
+            <TableColumn fx:id="colId" prefWidth="78.40000915527344" text="ID" />
+            <TableColumn fx:id="colName" prefWidth="88.79998779296875" text="Name" />
+            <TableColumn fx:id="colPrice" prefWidth="107.2000732421875" text="Price" />
+            <TableColumn fx:id="colSize" prefWidth="105.5999755859375" text="Size" />
+            <TableColumn fx:id="colQuantityOnHand" prefWidth="104.79998779296875" text="Quantitiy" />
+            <TableColumn fx:id="colSupplierId" prefWidth="95.199951171875" text="Supplier ID" />
+            <TableColumn fx:id="colCategoryId" prefWidth="95.199951171875" text="Category Id" />
          </columns>
       </TableView>
       <JFXTextField fx:id="txtQuantityOnHand" layoutX="397.0" layoutY="181.0" promptText="Quantity On Hand" />
