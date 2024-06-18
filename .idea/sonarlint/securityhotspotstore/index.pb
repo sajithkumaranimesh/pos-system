@@ -65,3 +65,5 @@ Qsrc/main/java/edu/icet/clothingcrm/controller/order/PlaceOrderFormController.ja
 Ksrc/main/java/edu/icet/clothingcrm/controller/employee/EmployeeService.java,5\8\583f9b0918ecee7c09a4873fc59781ce3cd947b5
 i
 9src/main/java/edu/icet/clothingcrm/crudUtil/CrudUtil.java,e\d\edb8f6c2ac086483f210d989df1efa40ea4d6463
+|
+Lsrc/main/java/edu/icet/clothingcrm/controller/product/ProductController.java,b\e\beccdbf0145ce42c55e59794c2143f31f3b5db45

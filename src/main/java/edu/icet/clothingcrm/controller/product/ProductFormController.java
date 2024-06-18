@@ -166,32 +166,15 @@ public class ProductFormController implements Initializable {
     }
 
     public void btnSearchProductOnAction(ActionEvent actionEvent) {
-        try {
-            Connection connection = DBConnection.getInstance().getConnection();
-            ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM product where id='" + txtId.getText() + "'");
-            while (resultSet.next()){
-                Product product = new Product(
-                        resultSet.getInt(1),
-                        resultSet.getString(2),
-                        resultSet.getString(3),
-                        resultSet.getString(4),
-                        resultSet.getString(5),
-                        resultSet.getInt(6),
-                        resultSet.getInt(7)
-                );
-                System.out.println(product);
+        Product product = ProductController.getInstance().searchProduct(txtId.getText());
+        txtId.setText(String.valueOf(product.getId()));
+        txtName.setText(product.getName());
+        txtSize.setText(product.getSize());
+        txtPrice.setText(product.getPrice());
+        txtQuantityOnHand.setText(product.getQuantityOnHand());
+        cmbCategoryId.setValue(product.getCategoryId());
+        cmbSupplierId.setValue(product.getSupplierId());
 
-                txtId.setText(String.valueOf(product.getId()));
-                txtName.setText(product.getName());
-                txtSize.setText(product.getSize());
-                txtPrice.setText(product.getPrice());
-                txtQuantityOnHand.setText(product.getQuantityOnHand());
-                cmbCategoryId.setValue(product.getCategoryId());
-                cmbSupplierId.setValue(product.getSupplierId());
-            }
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
-        }
     }
 
     public void btnDeleteProductOnAction(ActionEvent actionEvent) {
