@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="627.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.LoginFormController">
+<AnchorPane prefHeight="627.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.login.LoginFormController">
    <children>
       <Rectangle arcHeight="50.0" arcWidth="60.0" fill="#d9d9d9" height="560.0" layoutX="466.0" layoutY="34.0" stroke="WHITE" strokeType="INSIDE" width="435.0" />
       <JFXTextField fx:id="txtUsername" layoutX="566.0" layoutY="219.0" prefHeight="44.0" prefWidth="232.0" promptText="username" />

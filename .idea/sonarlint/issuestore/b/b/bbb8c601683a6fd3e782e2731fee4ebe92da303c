@@ -1,50 +1,0 @@
-
-	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¯À×ü2J$c6328901-5e1a-4869-b54b-de15b83e6a06
-	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¯À×ü2J$308d8715-b8d4-4e86-9f5a-916fd5c01e56
-r
-java:S3740"/Provide the parametrized type for this generic.(“ĞÃâ8¯À×ü2J$730e7bc3-cabe-4ab7-bac2-8dbde50015ed
-r
-java:S3740"/Provide the parametrized type for this generic.(ƒäÆ8¯À×ü2J$44726511-500a-44ea-afe4-e1ce6f686897
-q
-java:S3740"/Provide the parametrized type for this generic.(ƒ˜’M8¯À×ü2J$132ef3e9-13e4-400d-9b0a-101720f9c54a
-w
-java:S3740"/Provide the parametrized type for this generic.(â¬Ëûşÿÿÿÿ8¯À×ü2J$aa2e061f-4b6d-4d5c-8159-5b82d569ba6d
-r
-java:S3740"/Provide the parametrized type for this generic.(û›ˆ8¯À×ü2J$b2d80e66-c7e4-41f3-b7aa-e91c907f62b4
-q
-java:S3740"/Provide the parametrized type for this generic.(ï÷ãt8¯À×ü2J$97e7f098-d49f-45cf-8086-3cfaba84c978
-–
-java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8¯À×ü2J$f0d44011-2ff5-400d-8d5c-21d6f00d78b6
-›
-java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8¯À×ü2J$3e719c40-15f6-425f-a9c3-76e8dffbd8b9
-”
-java:S1104"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8¯À×ü2J$93d40478-8a66-42f3-87b5-79b3a28ca32b
-œ
-java:S1104"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8¯À×ü2J$df7b52df-2a07-43f9-b8b9-4550fc95ef60
-Ÿ
-java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8¯À×ü2J$f752e8db-5dad-47db-acbf-f739a499f9d2
-œ
-java:S1104"YMake txtEmployeeId a static final constant or non-public and provide accessors if needed.(‚Ÿ”î8¨ºŞü2J$4b7a2612-bb01-487b-9667-53dad71a1e51
-”
-java:S1104"QMake colId a static final constant or non-public and provide accessors if needed.(“ĞÃâ8¯À×ü2J$b95d615b-24ba-429b-a991-0551f3ff0ead
-—
-java:S1104"TMake colEmail a static final constant or non-public and provide accessors if needed.(ƒäÆ8¯À×ü2J$757dbc85-bd6b-48ed-8ce1-92393266d5ae
-™
-java:S1104"WMake colPassword a static final constant or non-public and provide accessors if needed.(ƒ˜’M8¯À×ü2J$8d52ac7f-63dd-4c8b-9ec1-e6aa8b5382ac
-Ÿ
-java:S1104"WMake colUsername a static final constant or non-public and provide accessors if needed.(â¬Ëûşÿÿÿÿ8¯À×ü2J$e4b2f5e7-dbf9-4615-85ca-41e83bd966a9
-œ
-java:S1104"YMake colEmployeeId a static final constant or non-public and provide accessors if needed.(û›ˆ8¯À×ü2J$bca9ca36-65ce-451c-8847-25870f0f7f24
-—
-java:S1104"UMake colAction a static final constant or non-public and provide accessors if needed.(ï÷ãt8¯À×ü2J$8a6b5a90-dbcd-42a7-bc0b-430ccea14471
-—
-java:S2095-"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ãÿÊ¬ÿÿÿÿÿ8îãâü2J$5f1dc172-84ff-49fd-a3e5-0edac8b09689
-z
-java:S1172""2Remove this unused method parameter "actionEvent".(ÊêĞ«üÿÿÿÿ8¯À×ü2J$03c3352a-a38b-4e01-8764-04cf80398b80
-m	java:S106)"+Replace this use of System.out by a logger.(Ø¼¢ƒ8¾À×ü2J$b39727e9-103b-4279-bb07-b7b8fe48d576
-‡
-java:S21476"DCombine this catch with the one at line 52, which has the same body.(É®£8¾À×ü2J$5d0282a8-fa0b-4ff0-8af2-d35cdf7761e5
-_
-java:S1128"=Remove this unused import 'com.jfoenix.controls.JFXComboBox'.(İÅéûÿÿÿÿ8˜èü2
-S
-java:S1128"6Remove this unused import 'javafx.fxml.Initializable'.(™ÎùÆ8˜èü2
