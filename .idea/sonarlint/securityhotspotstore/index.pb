@@ -59,3 +59,9 @@ Psrc/main/java/edu/icet/clothingcrm/controller/product/ProductFormController.jav
 Lsrc/main/java/edu/icet/clothingcrm/controller/login/LoginFormController.java,4\e\4e43700c47937faa2ca01cf0dabf0556445f467f
 Ç
 Rsrc/main/java/edu/icet/clothingcrm/controller/register/RegisterFormController.java,e\4\e4702decf2df5aa06fb53e55416b73d1f0c6a3ab
+Å
+Qsrc/main/java/edu/icet/clothingcrm/controller/order/PlaceOrderFormController.java,3\f\3fdfb9ffa1ef40dbf290886417e4c97c899920d8
+{
+Ksrc/main/java/edu/icet/clothingcrm/controller/employee/EmployeeService.java,5\8\583f9b0918ecee7c09a4873fc59781ce3cd947b5
+i
+9src/main/java/edu/icet/clothingcrm/crudUtil/CrudUtil.java,e\d\edb8f6c2ac086483f210d989df1efa40ea4d6463

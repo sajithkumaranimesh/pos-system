@@ -11,6 +11,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -98,22 +99,15 @@ public class EmployeeFormController implements Initializable {
                 txtEmail.getText(),
                 txtAddress.getText()
         );
-        System.out.println(employee);
 
-        try {
-            Connection connection = DBConnection.getInstance().getConnection();
-            PreparedStatement psTm = connection.prepareStatement("INSERT INTO employee VALUES (?,?,?,?)");
-            psTm.setInt(1, employee.getId());
-            psTm.setString(2, employee.getName());
-            psTm.setString(3, employee.getEmail());
-            psTm.setString(4, employee.getAddress());
-            psTm.execute();
-
-            loadEmoloyeeTable();
-            clearText();
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
+        boolean b = EmployeeController.getInstance().addEmployee(employee);
+        if (b){
+            new Alert(Alert.AlertType.ERROR,"Employee Not Added").show();
+        }else {
+            new Alert(Alert.AlertType.CONFIRMATION,"Employee Added").show();
         }
+        
+        loadEmoloyeeTable();
     }
 
 
