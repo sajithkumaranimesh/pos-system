@@ -47,6 +47,11 @@ public class ProductFormController implements Initializable {
     public TableColumn colSupplierId;
     public TableColumn colCategoryId;
 
+    public Label lblCategoryName;
+    public Label lblSupplierName;
+    public Label lblSupplierCompany;
+    public Label lblSupplierEmail;
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -61,6 +66,26 @@ public class ProductFormController implements Initializable {
         loadSupplierIds();
         loadCategoryIds();
         loadProductTable();
+
+        cmbCategoryId.getSelectionModel().selectedItemProperty().addListener((observable,oldValue,newValue) -> {
+            setCategoryDataForLbl(String.valueOf(newValue));
+        });
+
+        cmbSupplierId.getSelectionModel().selectedItemProperty().addListener((observable,oldValue,newValue) ->{
+            setSupplierDataForLbl(String.valueOf(newValue));
+        });
+    }
+
+    private void setSupplierDataForLbl(String supplierId) {
+        Supplier supplier = SupplierController.getInstance().searchSupplier(supplierId);
+        lblSupplierName.setText(supplier.getName());
+        lblSupplierCompany.setText(supplier.getCompany());
+        lblSupplierEmail.setText(supplier.getEmail());
+    }
+
+    private void setCategoryDataForLbl(String categoryId) {
+        Category category = CategoryController.getInstance().searchCategory(categoryId);
+        lblCategoryName.setText(category.getName());
     }
 
     private void loadProductTable() {
