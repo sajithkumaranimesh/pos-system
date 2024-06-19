@@ -178,20 +178,13 @@ public class ProductFormController implements Initializable {
     }
 
     public void btnDeleteProductOnAction(ActionEvent actionEvent) {
-        try {
-            boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM product where id='" + txtId.getText() + "'");
-
-            //loadEmployees();
+        boolean b = ProductController.getInstance().deleteProduct(txtId.getText());
+        if (b){
+            System.out.println("Product Added");
             loadProductTable();
             clearText();
-
-            if(execute){
-                System.out.println("Employee not deleted");
-            }else {
-                System.out.println("Employee deleted");
-            }
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
+        }else {
+            System.out.println("Product Not Added");
         }
     }
 
