@@ -19,10 +19,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.util.Duration;
 
 import java.net.URL;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.time.LocalTime;
 import java.util.Date;
@@ -101,12 +97,12 @@ public class EmployeeFormController implements Initializable {
         );
 
         boolean b = EmployeeController.getInstance().addEmployee(employee);
-        if (b){
-            new Alert(Alert.AlertType.ERROR,"Employee Not Added").show();
-        }else {
-            new Alert(Alert.AlertType.CONFIRMATION,"Employee Added").show();
+        if (b) {
+            new Alert(Alert.AlertType.ERROR, "Employee Not Added").show();
+        } else {
+            new Alert(Alert.AlertType.CONFIRMATION, "Employee Added").show();
         }
-        
+
         loadEmoloyeeTable();
     }
 
@@ -121,19 +117,14 @@ public class EmployeeFormController implements Initializable {
     }
 
     public void btnDeleteOnAction(ActionEvent actionEvent) {
-        try {
-            boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM employee where id='" + txtId.getText() + "'");
-
+        boolean execute = EmployeeController.getInstance().deleteEmployee(txtId.getText());
+        if (execute) {
+            System.out.println("Employee deleted");
             loadEmoloyeeTable();
             clearText();
+        } else {
+            System.out.println("Employee Not  deleted");
 
-            if (execute) {
-                System.out.println("Employee not deleted");
-            } else {
-                System.out.println("Employee deleted");
-            }
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
         }
     }
 

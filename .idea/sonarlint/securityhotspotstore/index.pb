@@ -67,3 +67,5 @@ i
 9src/main/java/edu/icet/clothingcrm/crudUtil/CrudUtil.java,e\d\edb8f6c2ac086483f210d989df1efa40ea4d6463
 |
 Lsrc/main/java/edu/icet/clothingcrm/controller/product/ProductController.java,b\e\beccdbf0145ce42c55e59794c2143f31f3b5db45
+h
+8src/main/java/edu/icet/clothingcrm/dto/tm/CartTable.java,6\1\61b4e041960da1a22d221cd1a870a46c6bb848ff
