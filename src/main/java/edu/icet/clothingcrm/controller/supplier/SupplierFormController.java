@@ -1,6 +1,7 @@
 package edu.icet.clothingcrm.controller.supplier;
 
 import com.jfoenix.controls.JFXTextField;
+import edu.icet.clothingcrm.crudUtil.CrudUtil;
 import edu.icet.clothingcrm.db.DBConnection;
 import edu.icet.clothingcrm.dto.Supplier;
 import edu.icet.clothingcrm.dto.tm.SupplierTable;
@@ -8,6 +9,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -75,24 +77,14 @@ public class SupplierFormController implements Initializable {
                 txtEmail.getText(),
                 txtCompany.getText()
         );
-        System.out.println(supplier);
 
-        try {
-            Connection connection = DBConnection.getInstance().getConnection();
-            PreparedStatement psTm = connection.prepareStatement("INSERT INTO supplier VALUES (?,?,?,?)");
-            psTm.setInt(1,supplier.getId());
-            psTm.setString(2,supplier.getName());
-            psTm.setString(3,supplier.getEmail());
-            psTm.setString(4,supplier.getCompany());
-            psTm.execute();
-
-            loadSupplierTable();
-            clearText();
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
+        boolean b = SupplierController.getInstance().addSupplier(supplier);
+        if (b) {
+            new Alert(Alert.AlertType.ERROR, "Supplier Not Added").show();
+        } else {
+            new Alert(Alert.AlertType.CONFIRMATION, "Supplier Added").show();
         }
+
     }
 
     public void btnSearchSupplierOnAction(ActionEvent actionEvent) {
@@ -104,22 +96,17 @@ public class SupplierFormController implements Initializable {
     }
 
     public void btnDeleteSupplierOnAction(ActionEvent actionEvent) {
-        try {
-            boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM supplier where id='" + txtId.getText() + "'");
-
+        boolean b = SupplierController.getInstance().deleteSupplier(txtId.getText());
+        if (b){
+            System.out.println("Supplier Added");
             loadSupplierTable();
             clearText();
-            if(execute){
-                System.out.println("Supplier not deleted");
-            }else {
-                System.out.println("Supplier deleted");
-            }
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
+        }else {
+            System.out.println("Supplier Not Added");
         }
     }
 
-    private void clearText(){
+        private void clearText(){
         txtId.setText(null);
         txtName.setText(null);
         txtEmail.setText(null);

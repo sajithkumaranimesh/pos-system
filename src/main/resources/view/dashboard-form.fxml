@@ -9,7 +9,8 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="624.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.dashboard.DashboardFormController">
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane prefHeight="624.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.dashboard.DashboardFormController">
    <children>
       <Rectangle arcHeight="50.0" arcWidth="60.0" fill="#d9d9d9" height="581.0" layoutX="23.0" layoutY="22.0" stroke="WHITE" strokeType="INSIDE" width="197.0" />
       <Label layoutX="65.0" layoutY="39.0" text="POS System">
@@ -164,4 +165,4 @@
          </image>
       </ImageView>
    </children>
-</AnchorPane>
+</BorderPane>

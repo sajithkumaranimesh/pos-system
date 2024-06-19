@@ -8,6 +8,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -62,22 +63,14 @@ public class CategoryFormController implements Initializable {
                 Integer.parseInt(txtId.getText()),
                 txtName.getText()
         );
-        System.out.println(category);
 
-        try {
-            Connection connection = DBConnection.getInstance().getConnection();
-            PreparedStatement psTm = connection.prepareStatement("INSERT INTO category VALUES (?,?)");
-            psTm.setInt(1, category.getId());
-            psTm.setString(2, category.getName());
-            psTm.execute();
-
-            //loadCategory();
-            loadCategoryTable();
-            clearText();
-
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
+        boolean b = CategoryController.getInstance().addCategory(category);
+        if (b) {
+            new Alert(Alert.AlertType.ERROR, "Category not Added").show();
+        } else {
+            new Alert(Alert.AlertType.CONFIRMATION, "Category Added").show();
         }
+        loadCategoryTable();
     }
 
     public void btnSearchCtegoryOnAction(ActionEvent actionEvent) {
@@ -88,21 +81,16 @@ public class CategoryFormController implements Initializable {
     }
 
     public void btnDeleteCtegoryOnAction(ActionEvent actionEvent) {
-        try {
-            boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM category where id='" + txtId.getText() + "'");
 
-            //loadCategory();
+        boolean execute = CategoryController.getInstance().deleteCategory(txtId.getText());
+        if (execute) {
+            System.out.println("Category  deleted");
             loadCategoryTable();
             clearText();
-
-            if (execute) {
-                System.out.println("Category not deleted");
-            } else {
-                System.out.println("Category deleted");
-            }
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
+        } else {
+            System.out.println("Category not deleted");
         }
+
     }
 
     private void clearText() {
