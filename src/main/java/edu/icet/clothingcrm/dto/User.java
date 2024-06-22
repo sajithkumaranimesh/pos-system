@@ -8,8 +8,8 @@ import lombok.*;
 @Getter
 @ToString
 public class User {
-    private Integer id;
+    private String id;
     private String email;
     private String password;
-    private Integer employeeId;
+    private String employeeId;
 }

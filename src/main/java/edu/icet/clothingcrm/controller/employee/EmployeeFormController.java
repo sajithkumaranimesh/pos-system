@@ -1,9 +1,12 @@
 package edu.icet.clothingcrm.controller.employee;
 
 import com.jfoenix.controls.JFXTextField;
-import edu.icet.clothingcrm.db.DBConnection;
+import edu.icet.clothingcrm.bo.BoFactory;
+import edu.icet.clothingcrm.bo.custom.EmployeeBo;
 import edu.icet.clothingcrm.dto.Employee;
 import edu.icet.clothingcrm.dto.tm.EmployeeTable;
+import edu.icet.clothingcrm.util.BoType;
+import edu.icet.clothingcrm.util.CrudUtil;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -19,11 +22,15 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.util.Duration;
 
 import java.net.URL;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.time.LocalTime;
 import java.util.Date;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class EmployeeFormController implements Initializable {
     public Label lblTime;
@@ -38,10 +45,11 @@ public class EmployeeFormController implements Initializable {
     public TableColumn colEmail;
     public TableColumn colName;
     public TableColumn colAddress;
-    public TableColumn colAction;
     public TableView tblEmployeeTable;
 
-    //private List<Employee> employeeList;
+    public EmployeeBo employeeBo = BoFactory.getInstance().getBo(BoType.EMPLOYEE);
+    public Label lblId;
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -49,27 +57,13 @@ public class EmployeeFormController implements Initializable {
         colName.setCellValueFactory(new PropertyValueFactory<>("name"));
         colEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
         colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
-        loadDateAndTime();
+
 
         loadEmoloyeeTable();
+        generateEmployeeId();
     }
 
-    private void loadDateAndTime() {
-        Date date = new Date();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
-        lblDate.setText(simpleDateFormat.format(date));
 
-        Timeline timeline = new Timeline(new KeyFrame(Duration.ZERO, e -> {
-            LocalTime time = LocalTime.now();
-            lblTime.setText(
-                    time.getHour() + " : " + time.getMinute() + " : " + time.getSecond()
-            );
-        }),
-                new KeyFrame(Duration.seconds(1))
-        );
-        timeline.setCycleCount(Animation.INDEFINITE);
-        timeline.play();
-    }
 
     private void loadEmoloyeeTable() {
         ObservableList<Employee> tableData = FXCollections.observableArrayList();
@@ -90,26 +84,28 @@ public class EmployeeFormController implements Initializable {
 
     public void btnAddEmployeeOnAction(ActionEvent actionEvent) {
         Employee employee = new Employee(
-                Integer.parseInt(txtId.getText()),
+                lblId.getText(),
                 txtName.getText(),
                 txtEmail.getText(),
                 txtAddress.getText()
         );
 
-        boolean b = EmployeeController.getInstance().addEmployee(employee);
-        if (b) {
+        boolean isEmployeeAdded = employeeBo.saveEmployee(employee);
+        if (isEmployeeAdded) {
             new Alert(Alert.AlertType.ERROR, "Employee Not Added").show();
         } else {
             new Alert(Alert.AlertType.CONFIRMATION, "Employee Added").show();
         }
 
         loadEmoloyeeTable();
+        clearText();
+        generateEmployeeId();
     }
 
 
     public void btnsearchOnAction(ActionEvent actionEvent) {
-        Employee employee = EmployeeController.getInstance().searchEmployee(txtId.getText());
-        txtId.setText(String.valueOf(employee.getId()));
+        Employee employee = employeeBo.searchEmployeeById(txtId.getText());
+        lblId.setText(String.valueOf(employee.getId()));
         txtEmail.setText(employee.getEmail());
         txtAddress.setText(employee.getAddress());
         txtName.setText(employee.getName());
@@ -117,8 +113,8 @@ public class EmployeeFormController implements Initializable {
     }
 
     public void btnDeleteOnAction(ActionEvent actionEvent) {
-        boolean execute = EmployeeController.getInstance().deleteEmployee(txtId.getText());
-        if (execute) {
+        boolean isDeleted = employeeBo.deleteEmployeeById(txtId.getText());
+        if (isDeleted) {
             System.out.println("Employee deleted");
             loadEmoloyeeTable();
             clearText();
@@ -133,5 +129,38 @@ public class EmployeeFormController implements Initializable {
         txtEmail.setText(null);
         txtAddress.setText(null);
         txtName.setText(null);
+    }
+
+    public void generateEmployeeId() throws RuntimeException {
+        try {
+            ResultSet resultSet = CrudUtil.execute("SELECT COUNT(*) FROM employee");
+            Integer count = 0;
+            while (resultSet.next()) {
+                count = resultSet.getInt(1);
+
+            }
+            if (count == 0) {
+                lblId.setText("E001");
+            }
+            String lastOrderId = "";
+            ResultSet resultSet1 = CrudUtil.execute("SELECT id\n" +
+                    "FROM employee\n" +
+                    "ORDER BY id DESC\n" +
+                    "LIMIT 1;");
+            if (resultSet1.next()) {
+                lastOrderId = resultSet1.getString(1);
+                Pattern pattern = Pattern.compile("[A-Za-z](\\d+)");
+                Matcher matcher = pattern.matcher(lastOrderId);
+                if (matcher.find()) {
+                    int number = Integer.parseInt(matcher.group(1));
+                    number++;
+                    lblId.setText(String.format("E%03d", number));
+                } else {
+                    new Alert(Alert.AlertType.WARNING, "hello").show();
+                }
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

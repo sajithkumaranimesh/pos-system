@@ -2,27 +2,26 @@ package edu.icet.clothingcrm.controller.product;
 
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXTextField;
+import edu.icet.clothingcrm.bo.BoFactory;
+import edu.icet.clothingcrm.bo.custom.ProductBo;
 import edu.icet.clothingcrm.controller.category.CategoryController;
 import edu.icet.clothingcrm.controller.supplier.SupplierController;
-import edu.icet.clothingcrm.db.DBConnection;
 import edu.icet.clothingcrm.dto.Category;
 import edu.icet.clothingcrm.dto.Product;
 import edu.icet.clothingcrm.dto.Supplier;
 import edu.icet.clothingcrm.dto.tm.ProductTable;
+import edu.icet.clothingcrm.util.BoType;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.net.URL;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.List;
 import java.util.ResourceBundle;
 
@@ -51,7 +50,9 @@ public class ProductFormController implements Initializable {
     public Label lblSupplierName;
     public Label lblSupplierCompany;
     public Label lblSupplierEmail;
+    public Label lblId;
 
+    private ProductBo productBo = BoFactory.getInstance().getBo(BoType.PRODUCT);
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -111,7 +112,7 @@ public class ProductFormController implements Initializable {
     private void loadSupplierIds() {
         List<Supplier> suppliers = SupplierController.getInstance().loadSupplier();
 
-        ObservableList<Integer> ids = FXCollections.observableArrayList();
+        ObservableList<String> ids = FXCollections.observableArrayList();
 
         suppliers.forEach(supplier -> {
             ids.add(supplier.getId());
@@ -123,7 +124,7 @@ public class ProductFormController implements Initializable {
     private void loadCategoryIds() {
         List<Category> categories = CategoryController.getInstance().loadCategory();
 
-        ObservableList<Integer> ids = FXCollections.observableArrayList();
+        ObservableList<String> ids = FXCollections.observableArrayList();
 
         categories.forEach(category -> {
             ids.add(category.getId());
@@ -134,39 +135,27 @@ public class ProductFormController implements Initializable {
 
     public void btnAddProductOnAction(ActionEvent actionEvent) {
         Product product = new Product(
-                Integer.parseInt(txtId.getText()),
+                lblId.getText(),
                 txtName.getText(),
                 txtSize.getText(),
                 txtPrice.getText(),
                 txtQuantityOnHand.getText(),
-                Integer.parseInt(String.valueOf(cmbCategoryId.getValue())),
-                Integer.parseInt(String.valueOf(cmbSupplierId.getValue()))
+                String.valueOf(cmbCategoryId.getValue()),
+                String.valueOf(cmbSupplierId.getValue())
         );
-        System.out.println(product);
-
-        Connection connection = null;
-        try {
-            connection = DBConnection.getInstance().getConnection();
-            PreparedStatement psTm = connection.prepareStatement("INSERT INTO product VALUES (?,?,?,?,?,?,?)");
-            psTm.setInt(1,product.getId());
-            psTm.setString(2,product.getName());
-            psTm.setString(3,product.getSize());
-            psTm.setString(4,product.getPrice());
-            psTm.setString(5,product.getQuantityOnHand());
-            psTm.setInt(6,product.getCategoryId());
-            psTm.setInt(7,product.getSupplierId());
-            psTm.execute();
-
-            loadProductTable();
-            clearText();
-
-        } catch (ClassNotFoundException | SQLException e) {
-            throw new RuntimeException(e);
+        //boolean isProductAdded = ProductController.getInstance().addProduct(product);
+        boolean isProductAdded = productBo.saveProduct(product);
+        if (isProductAdded) {
+            new Alert(Alert.AlertType.ERROR, "Product Not Added").show();
+        } else {
+            new Alert(Alert.AlertType.CONFIRMATION, "Product Added").show();
         }
+
     }
 
     public void btnSearchProductOnAction(ActionEvent actionEvent) {
-        Product product = ProductController.getInstance().searchProduct(txtId.getText());
+        //Product product = ProductController.getInstance().searchProduct(txtId.getText());
+        Product product = productBo.searchProductById(txtId.getText());
         txtId.setText(String.valueOf(product.getId()));
         txtName.setText(product.getName());
         txtSize.setText(product.getSize());
@@ -178,8 +167,9 @@ public class ProductFormController implements Initializable {
     }
 
     public void btnDeleteProductOnAction(ActionEvent actionEvent) {
-        boolean b = ProductController.getInstance().deleteProduct(txtId.getText());
-        if (b){
+        //boolean isProductDeleted = ProductController.getInstance().deleteProduct(txtId.getText());
+        boolean isProductDeleted = productBo.deleteProductById(txtId.getText());
+        if (isProductDeleted){
             System.out.println("Product Added");
             loadProductTable();
             clearText();

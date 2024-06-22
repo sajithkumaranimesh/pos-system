@@ -9,6 +9,6 @@ import lombok.*;
 @Getter
 @ToString
 public class CategoryTable extends Category {
-    private Integer id;
+    private String id;
     private String name;
 }

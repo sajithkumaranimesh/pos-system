@@ -7,137 +7,30 @@
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Circle?>
-<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="651.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.product.ProductFormController">
+<AnchorPane prefHeight="615.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.product.ProductFormController">
    <children>
-      <Rectangle arcHeight="50.0" arcWidth="60.0" fill="#d9d9d9" height="581.0" layoutX="21.0" layoutY="40.0" stroke="WHITE" strokeType="INSIDE" width="197.0" />
-      <Label layoutX="63.0" layoutY="57.0" text="POS System">
+      <Label layoutX="37.0" layoutY="28.0" text="Product">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="91.0" layoutY="115.0" text="Dashboard">
+      <Label layoutX="37.0" layoutY="87.0" text="Product ID :">
          <font>
-            <Font name="System Bold" size="20.0" />
+            <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label layoutX="91.0" layoutY="170.0" text="Users">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="91.0" layoutY="227.0" text="Suppliers">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="91.0" layoutY="287.0" text="Category">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="91.0" layoutY="350.0" text="Products">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="91.0" layoutY="413.0" text="Orders">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="91.0" layoutY="478.0" text="Reports">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="92.0" layoutY="541.0" text="Expired">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="235.0" layoutY="42.0" text="Product">
-         <font>
-            <Font name="System Bold" size="20.0" />
-         </font>
-      </Label>
-      <Circle fill="#d9d9d9" layoutX="888.0" layoutY="53.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
-      <Label layoutX="737.0" layoutY="33.0" text="My Profile">
-         <font>
-            <Font name="System Bold" size="15.0" />
-         </font>
-      </Label>
-      <Label layoutX="737.0" layoutY="56.0" text="nimeshs581@gmail.com" />
-      <Label fx:id="lblTime" layoutX="428.0" layoutY="31.0" text="Time : 23:30:45">
-         <font>
-            <Font name="System Bold" size="15.0" />
-         </font>
-      </Label>
-      <Label fx:id="lblDate" layoutX="580.0" layoutY="31.0" text="Date: 2010-12-12">
-         <font>
-            <Font name="System Bold" size="15.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="30.0" fitWidth="42.0" layoutX="35.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../img/dashboard-icon.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="35.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../img/category-icon.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="35.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../img/supplier-icon.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="35.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../img/users-icon.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="35.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../img/product-icon.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="35.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../img/orders-icon.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="35.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../img/report-icon.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="38.0" layoutX="35.0" layoutY="541.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../img/expired-icon.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="235.0" layoutY="86.0" text="Product ID :">
-         <font>
-            <Font size="15.0" />
-         </font>
-      </Label>
-      <JFXTextField fx:id="txtName" layoutX="235.0" layoutY="129.0" promptText="Name" />
-      <JFXTextField fx:id="txtSize" layoutX="380.0" layoutY="129.0" promptText="Size" />
-      <JFXTextField fx:id="txtPrice" layoutX="538.0" layoutY="129.0" promptText="Price" />
-      <JFXButton layoutX="236.0" layoutY="304.0" onAction="#btnAddProductOnAction" style="-fx-background-color: #5f27cd;" text="Add Product" textFill="WHITE">
+      <JFXTextField fx:id="txtName" layoutX="370.0" layoutY="131.0" promptText="Name" />
+      <JFXTextField fx:id="txtSize" layoutX="541.0" layoutY="131.0" promptText="Size" />
+      <JFXTextField fx:id="txtPrice" layoutX="370.0" layoutY="181.0" promptText="Price" />
+      <JFXButton layoutX="37.0" layoutY="258.0" onAction="#btnAddProductOnAction" style="-fx-background-color: green;" text="Add Product" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </JFXButton>
-      <TableView fx:id="tblProductTable" layoutX="236.0" layoutY="392.0" prefHeight="223.0" prefWidth="667.0">
+      <TableView fx:id="tblProductTable" layoutX="17.0" layoutY="316.0" prefHeight="277.0" prefWidth="667.0">
          <columns>
             <TableColumn fx:id="colId" prefWidth="78.40000915527344" text="ID" />
             <TableColumn fx:id="colName" prefWidth="88.79998779296875" text="Name" />
@@ -148,29 +41,34 @@
             <TableColumn fx:id="colCategoryId" prefWidth="95.199951171875" text="Category Id" />
          </columns>
       </TableView>
-      <JFXTextField fx:id="txtQuantityOnHand" layoutX="684.0" layoutY="130.0" promptText="Quantity On Hand" />
-      <JFXComboBox fx:id="cmbCategoryId" layoutX="235.0" layoutY="189.0" prefHeight="26.0" prefWidth="135.0" promptText="Category" />
-      <JFXComboBox fx:id="cmbSupplierId" layoutX="400.0" layoutY="188.0" prefHeight="26.0" prefWidth="135.0" promptText="Supplier" />
-      <JFXTextField fx:id="txtId" layoutX="313.0" layoutY="84.0" promptText="id" />
-      <JFXButton layoutX="465.0" layoutY="84.0" onAction="#btnSearchProductOnAction" style="-fx-background-color: #5f27cd;" text="Search" textFill="WHITE">
+      <JFXTextField fx:id="txtQuantityOnHand" layoutX="541.0" layoutY="182.0" promptText="Quantity On Hand" />
+      <JFXComboBox fx:id="cmbCategoryId" layoutX="202.0" layoutY="130.0" prefHeight="26.0" prefWidth="135.0" promptText="Category" />
+      <JFXComboBox fx:id="cmbSupplierId" layoutX="37.0" layoutY="129.0" prefHeight="26.0" prefWidth="135.0" promptText="Supplier" />
+      <JFXTextField fx:id="txtId" layoutX="543.0" layoutY="28.0" promptText="id" />
+      <JFXButton layoutX="543.0" layoutY="68.0" onAction="#btnSearchProductOnAction" style="-fx-background-color: blue;" text="Search" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="580.0" layoutY="84.0" onAction="#btnDeleteProductOnAction" style="-fx-background-color: #5f27cd;" text="Delete" textFill="WHITE">
+      <JFXButton layoutX="625.0" layoutY="68.0" onAction="#btnDeleteProductOnAction" style="-fx-background-color: red;" text="Delete" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </JFXButton>
-      <Separator layoutX="382.0" layoutY="189.0" orientation="VERTICAL" prefHeight="106.0" prefWidth="0.0" />
-      <Label layoutX="235.0" layoutY="227.0" text="name :" />
-      <Label fx:id="lblCategoryName" layoutX="291.0" layoutY="227.0" text="name " />
-      <Label layoutX="400.0" layoutY="226.0" text="name :" />
-      <Label fx:id="lblSupplierName" layoutX="452.0" layoutY="226.0" text="name " />
-      <Label layoutX="400.0" layoutY="250.0" text="company :" />
-      <Label fx:id="lblSupplierCompany" layoutX="465.0" layoutY="250.0" text="company" />
-      <Label layoutX="400.0" layoutY="273.0" text="email :" />
-      <Label fx:id="lblSupplierEmail" layoutX="452.0" layoutY="273.0" text="email" />
-      <Separator layoutX="234.0" layoutY="186.0" prefHeight="4.0" prefWidth="314.0" />
+      <Separator layoutX="185.0" layoutY="119.0" orientation="VERTICAL" prefHeight="106.0" prefWidth="0.0" />
+      <Label layoutX="202.0" layoutY="168.0" text="name :" />
+      <Label fx:id="lblCategoryName" layoutX="258.0" layoutY="168.0" text="name " />
+      <Label layoutX="37.0" layoutY="167.0" text="name :" />
+      <Label fx:id="lblSupplierName" layoutX="89.0" layoutY="167.0" text="name " />
+      <Label layoutX="37.0" layoutY="191.0" text="company :" />
+      <Label fx:id="lblSupplierCompany" layoutX="102.0" layoutY="191.0" text="company" />
+      <Label layoutX="37.0" layoutY="214.0" text="email :" />
+      <Label fx:id="lblSupplierEmail" layoutX="89.0" layoutY="214.0" text="email" />
+      <Separator layoutX="37.0" layoutY="116.0" prefHeight="4.0" prefWidth="314.0" />
+      <Label fx:id="lblId" layoutX="122.0" layoutY="87.0" text="P001">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

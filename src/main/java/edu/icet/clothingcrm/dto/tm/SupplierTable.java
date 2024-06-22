@@ -9,7 +9,7 @@ import lombok.*;
 @Getter
 @ToString
 public class SupplierTable extends Supplier{
-    private Integer id;
+    private String id;
     private String name;
     private String email;
     private String company;
