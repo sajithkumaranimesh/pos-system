@@ -11,6 +11,7 @@ import edu.icet.clothingcrm.dto.Product;
 import edu.icet.clothingcrm.dto.Supplier;
 import edu.icet.clothingcrm.dto.tm.ProductTable;
 import edu.icet.clothingcrm.util.BoType;
+import edu.icet.clothingcrm.util.CrudUtil;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -22,8 +23,12 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.net.URL;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class ProductFormController implements Initializable {
     public Label lblTime;
@@ -50,6 +55,7 @@ public class ProductFormController implements Initializable {
     public Label lblSupplierName;
     public Label lblSupplierCompany;
     public Label lblSupplierEmail;
+
     public Label lblId;
 
     private ProductBo productBo = BoFactory.getInstance().getBo(BoType.PRODUCT);
@@ -64,6 +70,7 @@ public class ProductFormController implements Initializable {
         colCategoryId.setCellValueFactory(new PropertyValueFactory<>("categoryId"));
         colSupplierId.setCellValueFactory(new PropertyValueFactory<>("supplierId"));
 
+        generateProductId();
         loadSupplierIds();
         loadCategoryIds();
         loadProductTable();
@@ -150,6 +157,9 @@ public class ProductFormController implements Initializable {
         } else {
             new Alert(Alert.AlertType.CONFIRMATION, "Product Added").show();
         }
+        loadProductTable();
+        generateProductId();
+        clearText();
 
     }
 
@@ -186,6 +196,44 @@ public class ProductFormController implements Initializable {
         txtQuantityOnHand.setText(null);
         cmbCategoryId.setValue(null);
         cmbSupplierId.setValue(null);
+
+        lblCategoryName.setText(null);
+        lblSupplierName.setText(null);
+        lblSupplierCompany.setText(null);
+        lblSupplierEmail.setText(null);
+    }
+
+    public void generateProductId() throws RuntimeException {
+        try {
+            ResultSet resultSet = CrudUtil.execute("SELECT COUNT(*) FROM product");
+            Integer count = 0;
+            while (resultSet.next()) {
+                count = resultSet.getInt(1);
+
+            }
+            if (count == 0) {
+                lblId.setText("E001");
+            }
+            String lastOrderId = "";
+            ResultSet resultSet1 = CrudUtil.execute("SELECT id\n" +
+                    "FROM product\n" +
+                    "ORDER BY id DESC\n" +
+                    "LIMIT 1;");
+            if (resultSet1.next()) {
+                lastOrderId = resultSet1.getString(1);
+                Pattern pattern = Pattern.compile("[A-Za-z](\\d+)");
+                Matcher matcher = pattern.matcher(lastOrderId);
+                if (matcher.find()) {
+                    int number = Integer.parseInt(matcher.group(1));
+                    number++;
+                    lblId.setText(String.format("P%03d", number));
+                } else {
+                    new Alert(Alert.AlertType.WARNING, "hello").show();
+                }
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }

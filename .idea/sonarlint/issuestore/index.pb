@@ -123,3 +123,5 @@ m
 =src/main/java/edu/icet/clothingcrm/controller/FxmlLoader.java,b\9\b932cf9c608d2e129912381b32f2313487b5e348
 k
 ;src/main/java/edu/icet/clothingcrm/controller/DumyPage.java,7\4\7432a4bb3bf20eb45834d5d26c763c49b79f2b8e
+l
+<src/main/java/edu/icet/clothingcrm/bo/custom/SupplierBo.java,a\a\aa85a4cc081ea05cc5683069c5c6c50fd797e0f0
