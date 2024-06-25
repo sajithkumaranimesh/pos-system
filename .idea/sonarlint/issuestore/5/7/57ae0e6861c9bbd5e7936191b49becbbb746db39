@@ -1,0 +1,63 @@
+
+	java:S112£"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8šÁ·ûƒ2J$66a156f1-0f0f-4469-b779-b9ec99e31879
+	java:S112†"FDefine and throw a dedicated exception instead of using a generic one.(²éüçıÿÿÿÿ8¬ã¾ûƒ2J$80b67cb3-6db5-4629-83d4-d71389edb976
+r
+java:S3740,"/Provide the parametrized type for this generic.(“ĞÃâ8ãòÛƒ2J$d2465db1-0b6c-45cc-93f5-667e03f793d9
+r
+java:S3740-"/Provide the parametrized type for this generic.(ƒäÆ8ãòÛƒ2J$ee1ce357-5433-46c0-b9f3-708414bd6295
+w
+java:S3740."/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ8ãòÛƒ2J$0dbc723e-f90a-4bdb-89d1-517cd33a9635
+r
+java:S3740/"/Provide the parametrized type for this generic.(¯ÿı°8ãòÛƒ2J$369b54a6-46c2-4b06-a172-07fff0116945
+r
+java:S37400"/Provide the parametrized type for this generic.(ìñùø8ãòÛƒ2J$ad574eed-3bee-43fb-8540-149bf2648726
+–
+java:S1104$"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8ãòÛƒ2J$e57f0cb4-3d62-4583-ad79-cc4ae8324509
+›
+java:S1104%"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8ãòÛƒ2J$ed557790-dd91-4d5b-b4dd-e03630187078
+”
+java:S1104'"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8ãòÛƒ2J$db10e091-bbc0-4b14-8788-cb113853bf5b
+œ
+java:S1104("TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8ãòÛƒ2J$a5a54f56-4ec1-4443-b025-8184c37db21e
+
+java:S1104)"VMake txtAddress a static final constant or non-public and provide accessors if needed.(©ûîùıÿÿÿÿ8ãòÛƒ2J$eca231cc-10a4-4ea2-ab53-875259942c77
+›
+java:S1104*"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äİìÿÿÿÿÿ8ãòÛƒ2J$eddc7933-e4e6-45bc-9e74-81861c3bd90a
+”
+java:S1104,"QMake colId a static final constant or non-public and provide accessors if needed.(“ĞÃâ8ãòÛƒ2J$fcd5d2c6-7a56-4101-b5e7-e9bcbafe6dc2
+—
+java:S1104-"TMake colEmail a static final constant or non-public and provide accessors if needed.(ƒäÆ8ãòÛƒ2J$9d4fb165-463f-446a-820a-86cd860e5728
+›
+java:S1104."SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ8ãòÛƒ2J$f1c00334-7bd1-400d-9009-6c1ed2b5b1b5
+™
+java:S1104/"VMake colAddress a static final constant or non-public and provide accessors if needed.(¯ÿı°8ãòÛƒ2J$57aa3456-593b-4cc8-b994-9470ab815433
+Ÿ
+java:S11040"\Make tblEmployeeTable a static final constant or non-public and provide accessors if needed.(ìñùø8ãòÛƒ2J$404be4d1-3c53-4c2f-84f1-1b0a2db80d15
+™
+java:S11042"VMake employeeBo a static final constant or non-public and provide accessors if needed.(îÉçÆ8ãòÛƒ2J$d6d0667a-05b5-4e82-839e-0a665c3e73b9
+”
+java:S11043"QMake lblId a static final constant or non-public and provide accessors if needed.(ÆŠ­¼8›âòƒ2J$42275085-357c-4d0a-8858-3e4fdd1361a4
+u
+java:S1172U"2Remove this unused method parameter "actionEvent".(õ†¦û8‚òÛƒ2J$9f8e0c1b-5859-47a4-82f6-bed20824db75
+u
+java:S1172j"2Remove this unused method parameter "actionEvent".(ğëĞô8‚òÛƒ2J$3e845eb6-7e70-4c03-904a-990d67b504d1
+m	java:S106p"+Replace this use of System.out by a logger.(¼¡¨ò8‚òÛƒ2J$536144ea-cac8-4264-9cee-36f7e52db9f0
+u
+java:S1172s"2Remove this unused method parameter "actionEvent".(Œ“‘8‚òÛƒ2J$2d4c2764-d9d9-4814-9cf5-bbd362551313
+r	java:S106v"+Replace this use of System.out by a logger.(€ÕÇøÿÿÿÿ8‚òÛƒ2J$77644277-35ce-4d79-8f3c-12cff6f02590
+r	java:S106z"+Replace this use of System.out by a logger.(ˆ¾Š©ıÿÿÿÿ8‚òÛƒ2J$4a6b7cec-09db-483c-812c-7d7e29002fbe
+z
+java:S1128
+"7Remove this unused import 'javafx.animation.Animation'.(Æ“ğò8÷ä¾ûƒ2J$f771facf-e50f-4b79-ad05-362999f801c1
+x
+java:S1128"6Remove this unused import 'javafx.animation.KeyFrame'.(æ™†v8÷ä¾ûƒ2J$3e2812e1-279b-4488-8519-3374df874533
+~
+java:S1128"6Remove this unused import 'javafx.animation.Timeline'.(˜‰ë÷øÿÿÿÿ8÷ä¾ûƒ2J$80066645-2e73-4845-9e14-dd41639216f6
+t
+java:S1128"1Remove this unused import 'javafx.util.Duration'.(ç½®§8÷ä¾ûƒ2J$ce44ad24-514c-4641-903e-e05de762c86d
+z
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8÷ä¾ûƒ2J$51d31074-30a7-4d5f-a4be-d61e9a245927
+x
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8÷ä¾ûƒ2J$87a2b909-03e1-49c0-8113-3c688f13cde9
+n
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8÷ä¾ûƒ2J$31479de9-5db8-47da-89e5-724855b6c6e2

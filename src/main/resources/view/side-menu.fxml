@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" prefHeight="666.0" prefWidth="948.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.menu.SideMenuController">
+   <left>
+      <ScrollPane BorderPane.alignment="CENTER">
+         <content>
+            <VBox prefHeight="666.0" prefWidth="247.0" style="-fx-background-color: #aca4d4;">
+               <children>
+                  <Label text="Clothify Store">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="50.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <JFXButton buttonType="RAISED" onAction="#btnDashboardOnAction" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #8729f4;" text="   Dashboard">
+                     <VBox.margin>
+                        <Insets left="25.0" top="40.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/dashboard-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#btnUserOnAction" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #8729f4;" text="  User">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/users-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets left="25.0" top="20.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets right="50.0" />
+                     </padding>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#btnCategoryOnAction" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #8729f4;" text="  Category">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/category-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets right="20.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="25.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#btnSupplierOnAction" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #8729f4;" text="  Supplier">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/supplier-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets right="20.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="25.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#btnProductOnAction" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #8729f4;" text="  Product">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/product-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets right="25.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="25.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#btnOrderOnAction" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #8729f4;" text="  Order">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/orders-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets right="45.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="25.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#btnInventoryOnAction" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #8729f4;" text="  Inventory">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/inventory-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets right="15.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="25.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#btnEmployeeOnAction" prefHeight="46.0" prefWidth="197.0" style="-fx-background-color: #8729f4;" text="  Employee">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/employees-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets right="15.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="25.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </left>
+   <top>
+      <HBox prefHeight="50.0" prefWidth="948.0" style="-fx-background-color: #aca4d4;">
+         <children>
+            <Label text="Time : ">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="300.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="lblTime" text="12.00">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </Label>
+            <Label text="Date : ">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="60.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="lblDate" text="2000-12-25">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

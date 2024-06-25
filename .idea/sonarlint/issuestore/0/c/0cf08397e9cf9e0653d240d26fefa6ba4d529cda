@@ -1,0 +1,12 @@
+
+	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ğ„2J$72e9da08-c90a-4a18-b51a-751f3fd882eb
+	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÄŠ‘„2J$24a2e6e0-ce58-49bc-8431-3eb873a24a54
+…
+java:S11632"=Refactor this code to not throw exceptions in finally blocks.(Ò‚Òéüÿÿÿÿ8ÄŠ‘„2J$1cc3bc3b-d687-4b63-b2c9-2229f9c0c595
+|
+java:S11432"4Remove this throw statement from this finally block.(Ò‚Òéüÿÿÿÿ8ÄŠ‘„2J$fb1bbe71-8b55-4633-8336-038e61f1622a
+j
+java:S22590"HA "NullPointerException" could be thrown; "connection" is nullable here.(Øîğ€ıÿÿÿÿ8¤ÛÔñ„2
+l
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‹Öóä8¥ÛÔñ„2
+m	java:S106."+Replace this use of System.out by a logger.(ÑÆœö8ÒŠõ€„2J$5e3f5273-59b9-4a1d-b79d-de2402d2c8df

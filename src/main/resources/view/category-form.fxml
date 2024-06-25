@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="615.0" prefWidth="700.0" style="-fx-background-color: #aca4d4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.category.CategoryFormController">
+   <children>
+      <Label layoutX="26.0" layoutY="14.0" text="Category">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="76.0" text="Category ID :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblId" layoutX="120.0" layoutY="76.0" text="C001">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtName" layoutX="26.0" layoutY="115.0" promptText="Category Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="26.0" layoutY="164.0" onAction="#btnAddCategoryOnAction" style="-fx-background-color: green;" text="Add Category" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <Rectangle arcHeight="40.0" arcWidth="50.0" fill="#9c68ba" height="112.0" layoutX="468.0" layoutY="52.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <JFXTextField fx:id="txtId" layoutX="495.0" layoutY="76.0" promptText="Enter Search ID">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="495.0" layoutY="116.0" onAction="#btnSearchCtegoryOnAction" style="-fx-background-color: blue;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="587.0" layoutY="116.0" onAction="#btnDeleteCtegoryOnAction" style="-fx-background-color: red;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblCategoryTable" layoutX="214.0" layoutY="240.0" prefHeight="338.0" prefWidth="272.0">
+        <columns>
+          <TableColumn fx:id="colCategoryId" prefWidth="102.40003204345703" text="ID" />
+          <TableColumn fx:id="colName" prefWidth="168.79998779296875" text="NAME" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

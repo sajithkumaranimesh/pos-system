@@ -1,0 +1,18 @@
+
+	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÈŞ”«„2J$60549a8d-c04b-4f26-ae23-d461adb86d1a
+	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‘µ‹ÿ„2J$d0c40b58-06d8-4c0a-bf9e-ba0139380bfc
+š
+java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ù×æ‰8ØŞ”«„2J$4cdafaab-0911-42fc-aade-db77446809f4
+Ÿ
+java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8ØŞ”«„2J$1c421929-e4b7-4c02-957e-0635380363de
+¡
+java:S1104"YMake oldBorderPane a static final constant or non-public and provide accessors if needed.(”Õ¦ùÿÿÿÿ8ØŞ”«„2J$62c46570-bdd7-48c4-8300-8c3cd29a9757
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8ØŞ”«„2J$7bde6149-2ce8-439c-aa8f-942148eda5bd
+É
+java:S1186L"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®òÿşÿÿÿÿ8ØŞ”«„2J$a39561ba-a5f1-4a0d-a395-fcb572dac5f1
+k	java:S1086")Either remove or fill this block of code.(å¥‡8ØŞ”«„2J$775a3d00-7e54-466f-be44-6f59d3540d68
+€
+java:S1117>"=Rename "newWindow" which hides the field declared at line 26.(ÅÒşÉ8úŠÿ„2J$08def033-4363-4011-b4da-49b5f01d664c
+q
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8®ª«„2J$0d38e479-1087-4369-b702-3788b1e20ae8

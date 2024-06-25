@@ -1,0 +1,29 @@
+
+
+java:S1104"TMake mainPane a static final constant or non-public and provide accessors if needed.(’êıÏJ$bb29496b-ace5-4307-8689-2705849d18f7
+
+java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•J$62ae0b11-2101-4d5f-b10c-06a1ff30b6b8
+”
+java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿJ$49f69e11-ac9c-43af-93a4-15b8deaf577d
+½
+java:S11860"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Æ¾ôÄJ$b1bb7148-044e-447b-8daf-ff8d69d7bd6d
+Â
+java:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÑæĞÛúÿÿÿÿJ$b9fe3c36-bd1c-40c6-a787-e7dc4acd54bd
+n
+java:S11723"2Remove this unused method parameter "actionEvent".(¬ÒÂÍJ$cf59b90f-97de-4aa8-bdfc-449bbeb90845
+e	java:S1064"+Replace this use of System.out by a logger.(íĞ”!J$7484ba24-2d08-4713-a76d-3688092ccdb1
+n
+java:S1172:"2Remove this unused method parameter "actionEvent".(¿„ò·J$f5fbfa9a-370e-47da-a6f3-cab4b576b247
+f	java:S106;"+Replace this use of System.out by a logger.(Ö¯»ĞJ$f397765c-1724-4f34-9eb3-f191d9af2916
+s
+java:S1172B"2Remove this unused method parameter "actionEvent".(¾Éš‰üÿÿÿÿJ$4e5c7522-2191-49b6-a6a3-e32d052dbcba
+k	java:S106C"+Replace this use of System.out by a logger.(ù¦úğùÿÿÿÿJ$2b9dda9a-a322-4b19-bbea-ac52c021a05b
+s
+java:S1172I"2Remove this unused method parameter "actionEvent".(é‰ßÅûÿÿÿÿJ$aacd396d-2c95-468a-a573-85814b88c7a2
+k	java:S106J"+Replace this use of System.out by a logger.(™Íş·üÿÿÿÿJ$12e3a3ac-5e92-418d-901d-0f2070503300
+z
+java:S1172P"2Remove this unused method parameter "actionEvent".(ñí“°üÿÿÿÿ8ŞÏƒ„2J$bb7dc7fc-bf2c-41e2-ba30-a5ed83bcbded
+m	java:S106Q"+Replace this use of System.out by a logger.(¾ÌÔ¢8ŞÏƒ„2J$ee96a49b-b545-43e9-9667-9d3105fc36a7
+u
+java:S1172Z"2Remove this unused method parameter "actionEvent".(úîóá8øØ„ÿ„2J$6973148f-ef9a-48e3-b886-a797e3fc2afe
+m	java:S106["+Replace this use of System.out by a logger.(ÊÓç§8øØ„ÿ„2J$3ea87acb-ccd4-4dcc-84b7-95969dd624ac

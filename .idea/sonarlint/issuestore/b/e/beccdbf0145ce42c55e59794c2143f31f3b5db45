@@ -1,0 +1,13 @@
+
+	java:S112-"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8òÖÜƒ2J$83be7430-fd81-4e0a-bacb-2d0d023f83e9
+	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8òÖÜƒ2J$c4cc14d9-2fce-41e9-93b8-36e96e425418
+	java:S112U"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8òÖÜƒ2J$2d5d5b0d-643c-4831-9639-91f988def8f5
+	java:S112_"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8òÖÜƒ2J$b55bb2ba-02ee-4654-961e-660e58b71939
+	java:S112w"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8òÖÜƒ2J$b38ba43d-43ed-406b-ab4f-48245ce35224
+¢
+java:S1450"ZRemove the "productList" field and declare it as a local variable in the relevant methods.(ğêçŞüÿÿÿÿ8òÖÜƒ2J$75dfa791-11c9-42cd-bc2c-d47cb9fd9abc
+Ü
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(åê¸ø8òÖÜƒ2J$25dc3dc3-f8b3-4bf5-8b24-3e677f2a91bd
+r	java:S106)"+Replace this use of System.out by a logger.(Ø¦ˆŞúÿÿÿÿ8òÖÜƒ2J$fa8af05e-51e0-4eef-bfce-80e6da50e3b1
+„
+java:S1126h"AReplace this if-then-else statement by a single return statement.(‰í©‰8­òÖÜƒ2J$db62680e-1ef2-432b-af82-15a12564aaf7

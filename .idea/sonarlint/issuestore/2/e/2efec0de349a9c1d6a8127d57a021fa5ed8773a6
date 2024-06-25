@@ -1,0 +1,12 @@
+
+	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ø¡±õ‚2J$e9530a39-915b-491e-9c30-2645db1d48dc
+	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ø¡±õ‚2J$924e37cd-d38d-46ca-8cd0-9259e0725cdd
+	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ø¡±õ‚2J$9747142c-6300-489d-adac-2833ade4989c
+	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÿ—Ìõ‚2J$651592de-b8c2-4c02-9a44-e4ecd4e74782
+v
+java:S1121".Extract the assignment out of this expression.(‰õÎìÿÿÿÿÿ8ˆ¢±õ‚2J$a96ede94-0411-4089-9818-8d1d10931ad6
+£
+java:S1450"[Remove the "employeeList" field and declare it as a local variable in the relevant methods.(Ô¿Ããûÿÿÿÿ8¦‡âõ‚2J$770bbc44-4f9e-4655-a8bf-1948ba4a1659
+Ü
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(úº–Æ8ˆ¢±õ‚2J$47f99022-0c9a-40ea-b586-b80565e00903
+m	java:S106%"+Replace this use of System.out by a logger.(¼¡¨ò8—¢±õ‚2J$b087f76e-0016-401b-9e6c-197827c8d1b4

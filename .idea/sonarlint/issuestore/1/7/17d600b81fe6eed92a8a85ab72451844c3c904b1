@@ -1,0 +1,8 @@
+
+	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ºáĞñ„2J$cd28c96c-41b9-49ae-bf13-765933532422
+v
+java:S1121".Extract the assignment out of this expression.(ñ¶Ñøÿÿÿÿ8»áĞñ„2J$dfe29cb6-6335-4948-906d-1028ca1454b8
+š
+java:S1450"WRemove the "userList" field and declare it as a local variable in the relevant methods.(Ä¹ÙÃ8¿áĞñ„2J$b811e3e1-dcb0-488e-9d1f-b7822ee8be64
+á
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(¯‡ô·ûÿÿÿÿ8¿áĞñ„2J$ab74bbbc-6ded-4f1d-b47c-a699cb69b3c1

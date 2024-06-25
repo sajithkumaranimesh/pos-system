@@ -1,0 +1,15 @@
+
+	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8Α»ώ‚2J$1c80eca6-bf26-4912-8f5a-5c6501c1b35b
+	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8Α»ώ‚2J$d1496fa1-33b8-4d9c-9b6d-5602a4cfc55f
+	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8’Α»ώ‚2J$af910686-f55e-4178-a5d7-98c40a3035c8
+	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8’Α»ώ‚2J$858b0deb-2618-489c-9db2-b6d02f1752ae
+	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8’Α»ώ‚2J$d326d9e0-7269-4d7a-8fea-a7bd4500fd3c
+q
+java:S1121".Extract the assignment out of this expression.(ψ„νώ8”Α»ώ‚2J$14c5f9ec-56be-43fa-9025-16b34742a49e
+
+java:S1450"[Remove the "supplierList" field and declare it as a local variable in the relevant methods.(‹ΐÿΪ8ΆΑ»ώ‚2J$cab330c3-6070-4f7c-a9cc-71484b50b8fa
+α
+java:S6548"A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ÿΣ±ώÿÿÿÿ8§Α»ώ‚2J$e416be71-7abb-47da-8cde-599300615eac
+m	java:S106%"+Replace this use of System.out by a logger.(•Ο΅½8°Α»ώ‚2J$5bf75f91-1097-499c-87de-caee99548372
+‡
+java:S2147M"DCombine this catch with the one at line 75, which has the same body.(ύΰΡΞ8·Α»ώ‚2J$cfba8b43-6db7-43d1-a43f-58d9111b6234

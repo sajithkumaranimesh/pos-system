@@ -1,0 +1,53 @@
+
+	java:S112Ÿ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¿Ä–üƒ2J$5beb4615-ad0f-423b-b201-34a0193ed5de
+	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(¾´÷Şÿÿÿÿÿ8¿Ä–üƒ2J$2d3272e0-dea1-4275-bf06-88a3aa7702f9
+r
+java:S3740("/Provide the parametrized type for this generic.(Ÿ±æŒ8¿Ä–üƒ2J$e1cfce43-24cd-452b-8f83-cc23fd1427d7
+r
+java:S3740)"/Provide the parametrized type for this generic.(Ÿœ¼‘8¿Ä–üƒ2J$70e9c94c-3190-49fc-b42b-a5453f728ee0
+w
+java:S3740*"/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ8¿Ä–üƒ2J$21ae9418-d3b5-4a8b-9321-ecc0c7bc0345
+r
+java:S3740+"/Provide the parametrized type for this generic.(ƒäÆ8¿Ä–üƒ2J$8fb0a9a1-e2d0-474d-a918-a3331d2f77bc
+w
+java:S3740,"/Provide the parametrized type for this generic.(°Äˆ´ÿÿÿÿÿ8¿Ä–üƒ2J$0321e15d-b99f-467b-afc7-dee82477567d
+–
+java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•8¿Ä–üƒ2J$69d55639-0ecb-484b-87f6-850fa694fdf9
+›
+java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿ8¿Ä–üƒ2J$62096d94-0c81-4496-8f03-0af292550803
+”
+java:S1104""QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8¿Ä–üƒ2J$bfa8ac13-49a4-45fb-be01-9487c95c29e8
+›
+java:S1104#"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äİìÿÿÿÿÿ8¿Ä–üƒ2J$1a02aa36-2211-489b-a527-6f871ab49217
+œ
+java:S1104$"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8¿Ä–üƒ2J$baacfc9b-cc38-4c6a-8c89-485afc6d694d
+™
+java:S1104%"VMake txtCompany a static final constant or non-public and provide accessors if needed.(Úù÷ê8¿Ä–üƒ2J$d11ef109-4d2d-46ea-9884-6de6197e5497
+Ÿ
+java:S1104("\Make tblSupplierTable a static final constant or non-public and provide accessors if needed.(Ÿ±æŒ8¿Ä–üƒ2J$83a1fba7-2ac0-4102-91c2-8fa09503bc23
+œ
+java:S1104)"YMake colSupplierId a static final constant or non-public and provide accessors if needed.(Ÿœ¼‘8¿Ä–üƒ2J$e0cd5720-979a-42fc-969c-ee51904a25df
+›
+java:S1104*"SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ8¿Ä–üƒ2J$04a628ec-3266-4820-9806-d54d21b462be
+—
+java:S1104+"TMake colEmail a static final constant or non-public and provide accessors if needed.(ƒäÆ8¿Ä–üƒ2J$62a97193-acda-415e-9618-cce735334cdb
+
+java:S1104,"VMake colCompany a static final constant or non-public and provide accessors if needed.(°Äˆ´ÿÿÿÿÿ8¿Ä–üƒ2J$b6cb9376-7205-4d63-8852-a3d024910368
+
+java:S11040"VMake supplierBo a static final constant or non-public and provide accessors if needed.(½«ñ³øÿÿÿÿ8¿Ä–üƒ2J$4702ecce-c3b7-4907-9c91-f34880b6d435
+”
+java:S11041"QMake lblId a static final constant or non-public and provide accessors if needed.(ÆŠ­¼8¿Ä–üƒ2J$14bf8697-805b-4538-94a5-ef83f4e7041d
+ƒ	java:S125."<This block of commented-out lines of code should be removed.(„¾™ıÿÿÿÿ8ŞÄ–üƒ2J$2ed7386f-cf7c-47de-863b-0172722f91ad
+u
+java:S1172Q"2Remove this unused method parameter "actionEvent".(Õ’Ä½8ñÄ–üƒ2J$12ded09f-f29d-4119-a60d-d929773ce5d6
+ƒ	java:S125Y"<This block of commented-out lines of code should be removed.(Ùø°½ùÿÿÿÿ8ñÄ–üƒ2J$d14b0036-0f25-45b1-97c5-99dc12c27107
+z
+java:S1172f"2Remove this unused method parameter "actionEvent".(úË»‚ùÿÿÿÿ8ñÄ–üƒ2J$565e93f5-d0c4-4353-9455-3a2b4f41e742
+~	java:S125g"<This block of commented-out lines of code should be removed.(¾¿Ô8ñÄ–üƒ2J$0d49717e-8d00-425f-b904-11d2c929b66c
+u
+java:S1172o"2Remove this unused method parameter "actionEvent".(úşÎ½8€Å–üƒ2J$4f6a65e1-480a-4a7d-8ff3-6044a1f867e9
+ƒ	java:S125p"<This block of commented-out lines of code should be removed.(ğĞèĞøÿÿÿÿ8€Å–üƒ2J$ebb6692a-b5a7-46da-ac56-f85ed5c151e5
+m	java:S106s"+Replace this use of System.out by a logger.(÷·ıØ8€Å–üƒ2J$9a8b1336-bd44-4f40-9b00-672e2e430d6f
+m	java:S106w"+Replace this use of System.out by a logger.(ì‡ ó8€Å–üƒ2J$e400be4f-d748-4ce3-8e8b-090e95a315b3
+†
+java:S1128">Remove this unused import 'edu.icet.clothingcrm.dto.Employee'.(®Ç€ôùÿÿÿÿ8€Å–üƒ2J$04747fb6-2e91-4c2d-b516-63ce37911b5f

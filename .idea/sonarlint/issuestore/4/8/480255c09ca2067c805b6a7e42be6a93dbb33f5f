@@ -1,0 +1,13 @@
+
+	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷øİı‚2J$d91045a2-ed92-448d-b3ca-1ce120798d98
+	java:S1128"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷øİı‚2J$7ee91d7b-69ba-4880-9225-1a9d3cfe463b
+	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷øİı‚2J$ba7b91b2-58a0-48d8-967c-f0c5d18e04b1
+	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷øİı‚2J$48b4c4b0-2eed-4bee-964f-e856164cc183
+v
+java:S1121".Extract the assignment out of this expression.(ñÏ™óûÿÿÿÿ8÷øİı‚2J$a6582aa8-d6b8-48e2-a4d4-3b5830a29eee
+
+java:S1450"[Remove the "categoryList" field and declare it as a local variable in the relevant methods.(§‡¯ä8‚ùİı‚2J$7192a1e8-4970-4ce8-988b-3ce4289edb7e
+á
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(›³éÙùÿÿÿÿ8‚ùİı‚2J$22b47bd9-fa7c-4432-99c2-fe35feffcaac
+r	java:S106$"+Replace this use of System.out by a logger.(ß‰”ıÿÿÿÿ8‚ùİı‚2J$a0f676a9-0762-4748-abf8-fd6dab48b147
+r	java:S106>"+Replace this use of System.out by a logger.(ß‰”ıÿÿÿÿ8’ùİı‚2J$f127df26-6b6d-47b9-a0c5-305fc940abfb

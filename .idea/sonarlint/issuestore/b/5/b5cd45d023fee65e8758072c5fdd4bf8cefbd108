@@ -1,0 +1,7 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8çë¦„2J$8c585b54-3d12-4cb0-b4c1-ce83fad67a19
+	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ü¢•ÿ„2J$96d88287-5f11-4bf6-812e-cb8059e4a331
+
+java:S1128">Remove this unused import 'edu.icet.clothingcrm.dto.Supplier'.(––å“8‡¸œÿ„2J$b9aff706-3527-4d9a-b525-9de2ae10c53b
+u
+java:S1128"-Remove this unused import 'java.util.Locale'.(åð×±ûÿÿÿÿ8‡¸œÿ„2J$272b09e6-d59e-4596-a6e6-52505aba4b0c

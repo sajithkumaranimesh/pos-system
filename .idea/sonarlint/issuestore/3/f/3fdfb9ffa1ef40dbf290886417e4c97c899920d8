@@ -1,0 +1,83 @@
+
+	java:S112ι"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8®¨ήχ„2J$c02a6979-b96b-483c-af65-7e8d2ec764e8
+	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8®¨ήχ„2J$855f2163-8e77-46f3-b3ab-14c3fe2b1605
+	java:S112φ"FDefine and throw a dedicated exception instead of using a generic one.(·›Εÿÿÿÿÿ8®¨ήχ„2J$cf5a7730-7e4c-4def-a3a5-4665c1020978
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ϋΠΟω„2J$3a2217a7-d7fc-49ca-844b-136b980353ec
+	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ϋΠΟω„2J$c6bba2cd-7f98-49e5-acf2-31b888e465ef
+w
+java:S37407"/Provide the parametrized type for this generic.(ΜΛªψÿÿÿÿ8―¨ήχ„2J$79096fef-3001-433c-93c5-36dc14b84e0e
+w
+java:S3740:"/Provide the parametrized type for this generic.(”Ζ•ώÿÿÿÿ8―¨ήχ„2J$80dbd662-73ca-4366-afd9-407b32a77550
+r
+java:S3740@"/Provide the parametrized type for this generic.(¶Φη8°¨ήχ„2J$395c992a-e412-4be7-b05c-cdc73d5409be
+w
+java:S3740A"/Provide the parametrized type for this generic.(ΨΞύÿÿÿÿ8°¨ήχ„2J$97e6f1c9-b897-4385-b2fd-0061c9715da1
+w
+java:S3740B"/Provide the parametrized type for this generic.(Ί°Ηώϋÿÿÿÿ8°¨ήχ„2J$00af3fc5-0e51-48b8-bf75-8730ad6668c1
+r
+java:S3740C"/Provide the parametrized type for this generic.(ÿδζΨ8°¨ήχ„2J$ad068def-f47b-41ef-a46e-08564c1bf597
+r
+java:S3740D"/Provide the parametrized type for this generic.(Υ…Όν8°¨ήχ„2J$1de6167c-2e84-4499-8000-7f0f19273987
+r
+java:S3740E"/Provide the parametrized type for this generic.(¨­Μ8°¨ήχ„2J$5bbd7647-9dfa-4883-aa50-df3a1df4ed57
+›
+java:S1104/"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“ΐ„ÿÿÿÿÿ8²¨ήχ„2J$eeab2801-1c17-4352-b29a-d95e18285b07
+–
+java:S11040"SMake lblTime a static final constant or non-public and provide accessors if needed.(Ώ°Χ•8²¨ήχ„2J$b32e91b6-f21b-43bf-a4f9-74dd7bc9ce5d
+
+java:S11042"VMake lblOrderId a static final constant or non-public and provide accessors if needed.(Ά–ρ―ύÿÿÿÿ8²¨ήχ„2J$c5f789f1-5fcf-4a9e-a16e-6e2d5226547a
+£
+java:S11043"[Make txtCustomerName a static final constant or non-public and provide accessors if needed.(μ¨μΡψÿÿÿÿ8²¨ήχ„2J$25929a8d-3426-4daf-bfbc-7af2a6c1d357
+
+java:S11044"\Make txtCustomerEmail a static final constant or non-public and provide accessors if needed.(ξάΖ8²¨ήχ„2J$a9099054-e477-4eb9-8743-e7cc870de115
+
+java:S11045"ZMake txtQtyCustomer a static final constant or non-public and provide accessors if needed.(γ“…­8²¨ήχ„2J$5f26ada6-86f0-4086-8e2f-f1118c4e4645
+΅
+java:S11047"YMake cmbCategoryId a static final constant or non-public and provide accessors if needed.(ΜΛªψÿÿÿÿ8²¨ήχ„2J$e3e53433-0f9d-4306-9801-2175a9ad44c4
+£
+java:S11048"[Make lblCategoryName a static final constant or non-public and provide accessors if needed.(Υ„Ρ½ύÿÿÿÿ8²¨ήχ„2J$c1f17055-f4d0-47e3-9b13-59d75afcd2cb
+ 
+java:S1104:"XMake cmbProductId a static final constant or non-public and provide accessors if needed.(”Ζ•ώÿÿÿÿ8²¨ήχ„2J$61ad55a9-6b2d-4ed9-9b9d-feec84ff1c41
+Ά
+java:S1104;"ZMake lblProductName a static final constant or non-public and provide accessors if needed.(§ηΰÿÿÿÿÿ8²¨ήχ„2J$e6301a10-2132-45a4-8636-7b52b82e9bbd
+Ά
+java:S1104<"ZMake lblProductSize a static final constant or non-public and provide accessors if needed.(«αα†ÿÿÿÿÿ8²¨ήχ„2J$122471d0-f9c2-49e5-b0d6-19bf8bceb68f
+Ά
+java:S1104="_Make lblProductUnitPrice a static final constant or non-public and provide accessors if needed.(χ¶Ξ8²¨ήχ„2J$fea1a93a-3f51-4e1f-a353-ba6b16fc5635
+§
+java:S1104>"_Make lblProductQtyOnHand a static final constant or non-public and provide accessors if needed.(Ύΐ…Εÿÿÿÿÿ8²¨ήχ„2J$bd2ac5e8-246e-4bbc-8fa8-f7b6bad02e55
+›
+java:S1104@"XMake tblCartTable a static final constant or non-public and provide accessors if needed.(¶Φη8²¨ήχ„2J$a71613e0-9b79-4af5-ad39-58e65753d4f2
+΅
+java:S1104A"YMake colCategoryId a static final constant or non-public and provide accessors if needed.(ΨΞύÿÿÿÿ8²¨ήχ„2J$b59a83df-1230-45fa-b092-88d7984ec73f
+ 
+java:S1104B"XMake colProductId a static final constant or non-public and provide accessors if needed.(Ί°Ηώϋÿÿÿÿ8²¨ήχ„2J$76f3b47d-da84-4b00-a0b9-3be17088b647
+
+java:S1104C"ZMake colQtyCustomer a static final constant or non-public and provide accessors if needed.(ÿδζΨ8²¨ήχ„2J$993d0094-71e6-4e0f-972e-24897fe3b7de
+›
+java:S1104D"XMake colUnitPrice a static final constant or non-public and provide accessors if needed.(Υ…Όν8²¨ήχ„2J$eaf7bcf4-0f54-47fe-911d-de57125ed16a
+—
+java:S1104E"TMake colTotal a static final constant or non-public and provide accessors if needed.(¨­Μ8²¨ήχ„2J$3ce73a5d-dbbb-4324-8b0a-c0549742f4b0
+
+java:S1104G"WMake lblNetTotal a static final constant or non-public and provide accessors if needed.(Κΰ£†ϊÿÿÿÿ8²¨ήχ„2J$bde3fedc-bfcc-4218-b279-807afab0c92f
+›
+java:S1104J"SMake orderBo a static final constant or non-public and provide accessors if needed.(²Ηοÿÿÿÿÿ8²¨ήχ„2J$5ccb8cfa-47e9-4a6a-b88d-5a62e75f76f1
+t
+java:S1602a",Remove useless curly braces around statement(€Βφÿÿÿÿÿ8η¨ήχ„2J$52656d7c-3c6e-458b-a3cb-4edb98e846a8
+t
+java:S1602y",Remove useless curly braces around statement(³°½Γÿÿÿÿÿ8μ¨ήχ„2J$036db661-d928-4d57-8801-4d43f54e6d36
+m	java:S106|"+Replace this use of System.out by a logger.(Σϊ„•8ν¨ήχ„2J$0acc5831-4b91-440f-b5f8-6ac4957fabb8
+{
+java:S1172"2Remove this unused method parameter "actionEvent".(²ΤΆϊÿÿÿÿ8ο¨ήχ„2J$4b1bd32b-27f1-40de-bada-a14dd51ac617
+s	java:S106"+Replace this use of System.out by a logger.(Γ«Γωÿÿÿÿ8π¨ήχ„2J$0edeeab9-7378-47f9-a868-ba429d3c51fb
+v
+java:S1172Ε"2Remove this unused method parameter "actionEvent".(«τ¥ο8ς¨ήχ„2J$9bc302bc-d780-43b8-9a19-76121b4cf443
+s	java:S106ε"+Replace this use of System.out by a logger.(ΝΥ§§ωÿÿÿÿ8τ¨ήχ„2J$6cabf2be-8b25-4bf9-8b7b-f3ac0f5dd335
+u
+java:S1172ξ"2Remove this unused method parameter "actionEvent".(ƒ·Ò#8υ¨ήχ„2J$eae71b85-d798-4e19-a363-58b6121b547d
+{
+java:S1172—"2Remove this unused method parameter "actionEvent".(¦ςγόώÿÿÿÿ8ψ¨ήχ„2J$e2d7f148-f9c7-45e3-801e-e2b8d8308dd3
+s	java:S106™"+Replace this use of System.out by a logger.(βΩ«¥όÿÿÿÿ8ψ¨ήχ„2J$54a660c9-536c-47a2-aae2-e80dcb0c5c8a
+{
+java:S1172΅"2Remove this unused method parameter "actionEvent".(νΑ§ϊψÿÿÿÿ8ω¨ήχ„2J$c455f5af-49b8-45b2-af4e-1abf18933e73
+n	java:S106£"+Replace this use of System.out by a logger.(λΏΫΜ8ω¨ήχ„2J$dad9d90b-09e5-48ed-a907-5fd08145923a
