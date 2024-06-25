@@ -3,7 +3,6 @@ package edu.icet.clothingcrm.controller.category;
 import com.jfoenix.controls.JFXTextField;
 import edu.icet.clothingcrm.bo.BoFactory;
 import edu.icet.clothingcrm.bo.custom.CategoryBo;
-import edu.icet.clothingcrm.db.DBConnection;
 import edu.icet.clothingcrm.dto.Category;
 import edu.icet.clothingcrm.dto.tm.CategoryTable;
 import edu.icet.clothingcrm.util.BoType;
@@ -19,8 +18,6 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.net.URL;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;

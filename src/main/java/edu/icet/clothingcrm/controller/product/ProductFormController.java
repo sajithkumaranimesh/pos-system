@@ -150,7 +150,6 @@ public class ProductFormController implements Initializable {
                 String.valueOf(cmbCategoryId.getValue()),
                 String.valueOf(cmbSupplierId.getValue())
         );
-        //boolean isProductAdded = ProductController.getInstance().addProduct(product);
         boolean isProductAdded = productBo.saveProduct(product);
         if (isProductAdded) {
             new Alert(Alert.AlertType.ERROR, "Product Not Added").show();
@@ -164,7 +163,6 @@ public class ProductFormController implements Initializable {
     }
 
     public void btnSearchProductOnAction(ActionEvent actionEvent) {
-        //Product product = ProductController.getInstance().searchProduct(txtId.getText());
         Product product = productBo.searchProductById(txtId.getText());
         txtId.setText(String.valueOf(product.getId()));
         txtName.setText(product.getName());
@@ -177,7 +175,6 @@ public class ProductFormController implements Initializable {
     }
 
     public void btnDeleteProductOnAction(ActionEvent actionEvent) {
-        //boolean isProductDeleted = ProductController.getInstance().deleteProduct(txtId.getText());
         boolean isProductDeleted = productBo.deleteProductById(txtId.getText());
         if (isProductDeleted){
             System.out.println("Product Added");
@@ -186,6 +183,7 @@ public class ProductFormController implements Initializable {
         }else {
             System.out.println("Product Not Added");
         }
+        loadProductTable();
     }
 
     private void clearText(){
@@ -212,7 +210,7 @@ public class ProductFormController implements Initializable {
 
             }
             if (count == 0) {
-                lblId.setText("E001");
+                lblId.setText("P001");
             }
             String lastOrderId = "";
             ResultSet resultSet1 = CrudUtil.execute("SELECT id\n" +

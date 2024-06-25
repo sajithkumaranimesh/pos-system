@@ -6,9 +6,10 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="615.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.supplier.SupplierFormController">
+<AnchorPane prefHeight="615.0" prefWidth="700.0" style="-fx-background-color: #aca4d4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.clothingcrm.controller.supplier.SupplierFormController">
    <children>
       <Label layoutX="57.0" layoutY="24.0" text="Suppliers">
          <font>
@@ -17,39 +18,49 @@
       </Label>
       <Label layoutX="60.0" layoutY="76.0" text="Supplier ID :">
          <font>
-            <Font size="15.0" />
+            <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <JFXTextField fx:id="txtEmail" layoutX="60.0" layoutY="117.0" promptText="Email Address" />
-      <JFXTextField fx:id="txtCompany" layoutX="60.0" layoutY="163.0" promptText="Company" />
-      <JFXTextField fx:id="txtName" layoutX="224.0" layoutY="116.0" promptText="Name" />
-      <JFXButton layoutX="60.0" layoutY="205.0" onAction="#btnAddSupplierOnAction" style="-fx-background-color: green;" text="Add Supplier" textFill="WHITE">
+      <JFXTextField fx:id="txtEmail" layoutX="60.0" layoutY="117.0" promptText="Email Address">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtCompany" layoutX="60.0" layoutY="163.0" promptText="Company">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtName" layoutX="224.0" layoutY="116.0" promptText="Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="60.0" layoutY="205.0" onAction="#btnAddSupplierOnAction" style="-fx-background-color: green;" text="Add Supplier" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </JFXButton>
-      <TableView fx:id="tblSupplierTable" layoutX="59.0" layoutY="257.0" prefHeight="344.0" prefWidth="449.0">
+      <TableView fx:id="tblSupplierTable" layoutX="105.0" layoutY="250.0" prefHeight="344.0" prefWidth="528.0">
          <columns>
-            <TableColumn fx:id="colSupplierId" prefWidth="84.00001525878906" text="ID" />
-            <TableColumn fx:id="colEmail" prefWidth="113.5999755859375" text="Email" />
-            <TableColumn fx:id="colName" prefWidth="122.4000244140625" text="Name" />
-            <TableColumn fx:id="colCompany" prefWidth="128.0" text="Conpany" />
+            <TableColumn fx:id="colSupplierId" prefWidth="85.59998321533203" text="ID" />
+            <TableColumn fx:id="colEmail" prefWidth="148.0" text="Email" />
+            <TableColumn fx:id="colName" prefWidth="140.79998779296875" text="Name" />
+            <TableColumn fx:id="colCompany" prefWidth="154.39993286132812" text="Conpany" />
          </columns>
       </TableView>
-      <JFXTextField fx:id="txtId" layoutX="503.0" layoutY="34.0" promptText="id" />
-      <JFXButton layoutX="504.0" layoutY="76.0" onAction="#btnSearchSupplierOnAction" style="-fx-background-color: blue;" text="Search" textFill="WHITE">
+      <Rectangle arcHeight="40.0" arcWidth="50.0" fill="#9c68ba" height="112.0" layoutX="471.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <JFXTextField fx:id="txtId" layoutX="503.0" layoutY="49.0" promptText="id" />
+      <JFXButton buttonType="RAISED" layoutX="504.0" layoutY="91.0" onAction="#btnSearchSupplierOnAction" style="-fx-background-color: blue;" text="Search" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="586.0" layoutY="76.0" onAction="#btnDeleteSupplierOnAction" style="-fx-background-color: red;" text="Delete" textFill="WHITE">
+      <JFXButton buttonType="RAISED" layoutX="586.0" layoutY="91.0" onAction="#btnDeleteSupplierOnAction" style="-fx-background-color: red;" text="Delete" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </JFXButton>
       <Label fx:id="lblId" layoutX="150.0" layoutY="76.0" text="S001">
          <font>
-            <Font size="15.0" />
+            <Font name="System Bold" size="14.0" />
          </font>
       </Label>
    </children>
