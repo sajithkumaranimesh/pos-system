@@ -144,6 +144,7 @@ j
 s
 Csrc/main/java/edu/icet/clothingcrm/dao/custom/impl/UserDaoImpl.java,b\5\b5cd45d023fee65e8758072c5fdd4bf8cefbd108
 x
+<<<<<<< HEAD
 Hsrc/main/java/edu/icet/clothingcrm/controller/login/UserCoontroller.java,1\7\17d600b81fe6eed92a8a85ab72451844c3c904b1
 p
 @src/main/java/edu/icet/clothingcrm/entity/OrderDetailEntity.java,a\0\a0926b91f8b01c25aba58aead84c561b30cd09a1
@@ -153,3 +154,6 @@ u
 Esrc/main/java/edu/icet/clothingcrm/controller/UserFormController.java,b\b\bbb8c601683a6fd3e782e2731fee4ebe92da303c
 h
 8src/main/java/edu/icet/clothingcrm/dto/tm/UserTable.java,6\9\69a171f4443d1802a81eb7e9e5e2f9b38cda1cad
+=======
+Hsrc/main/java/edu/icet/clothingcrm/controller/login/UserCoontroller.java,1\7\17d600b81fe6eed92a8a85ab72451844c3c904b1
+>>>>>>> d70312bca9b4b73c1ce4e9019d79ae3e07b224e6
