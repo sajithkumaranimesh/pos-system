@@ -1,6 +1,6 @@
 
 
 java:S2095
-"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(à³Ý’úÿÿÿÿJ$aabf094c-9a05-4c50-9039-1fe1326335a3
+"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(à³Ý’úÿÿÿÿJ$d597f139-9f19-49ea-876e-6d032b83bc50
 {
-java:S1118":Add a private constructor to hide the implicit public one.(þ¼¬·ÿÿÿÿÿJ$ea890ff1-a94b-409e-ad6a-9173deaa34df
+java:S1118":Add a private constructor to hide the implicit public one.(þ¼¬·ÿÿÿÿÿJ$48ce82ee-aae0-4301-b16a-8050167fe760

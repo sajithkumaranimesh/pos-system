@@ -1,16 +1,16 @@
 
-	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8†¶åü„2J$1f7946da-9ab8-4316-a13c-98b762bf196c
+	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8†¶åü„2J$1d0d86df-af89-4c79-85fc-fc61eed28eaa
 š
-java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ù×æ‰8÷ü£ú„2J$c4cf1c73-04e3-4386-9630-0967b4433470
+java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ù×æ‰8÷ü£ú„2J$818c9623-4d4a-4cfb-88fa-a087df95a2f4
 Ÿ
-java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8÷ü£ú„2J$720ef111-4a43-47e3-9693-6169292139db
+java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8÷ü£ú„2J$93a5b50b-d112-4db9-9f45-2f3fe4e51143
 œ
-java:S1104"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8÷ü£ú„2J$4a19d041-6eae-4066-bb5b-13da9d14e6cc
+java:S1104"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8÷ü£ú„2J$263653c1-0ba6-455d-96f7-e67d7ee6f5c5
 •
-java:S1104"RMake userBo a static final constant or non-public and provide accessors if needed.(‡¿‡Î8÷ü£ú„2J$dd3d9310-52fe-4a76-bcf6-d5c9237078fc
+java:S1104"RMake userBo a static final constant or non-public and provide accessors if needed.(‡¿‡Î8÷ü£ú„2J$38cb35a5-4e2f-4d99-a4ac-9ed7f8246e68
 š
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Úó¥üøÿÿÿÿ8†¶åü„2J$9ec9385c-ed1e-497d-a492-967aaf9ec53d
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Úó¥üøÿÿÿÿ8†¶åü„2J$314bccd0-8cd1-4f03-88cc-4150641da91d
 …
-java:S1117?"=Rename "newWindow" which hides the field declared at line 25.(€óÔşÿÿÿÿ8•¶åü„2J$8c9dad35-5612-4bf9-bc7e-0c41fdfee044
+java:S1117?"=Rename "newWindow" which hides the field declared at line 25.(€óÔşÿÿÿÿ8•¶åü„2J$2de0637c-86ba-45b9-9e66-a63e00b46dec
 p
-java:S1068"-Remove this unused "newWindow" private field.(ùƒ¹Â8îûäü„2J$9aee7df1-8ee0-450d-a830-939839c29f97
+java:S1068"-Remove this unused "newWindow" private field.(ùƒ¹Â8îûäü„2J$2d8901fa-3c2a-4a15-b99f-88d0cd893f39

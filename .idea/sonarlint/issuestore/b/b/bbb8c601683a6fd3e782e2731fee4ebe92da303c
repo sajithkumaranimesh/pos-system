@@ -1,57 +1,57 @@
 
 r
-java:S3740!"/Provide the parametrized type for this generic.(ÚÀ–½8áªïÿ„2J$c56a5aca-64bf-486b-8e6f-eacb8b6be3c9
+java:S3740!"/Provide the parametrized type for this generic.(ÚÀ–½8áªïÿ„2J$fd918f1f-760d-440b-a6bc-e64bd0d256ad
 r
-java:S3740#"/Provide the parametrized type for this generic.(¼¹„‡8áªïÿ„2J$33845cb7-9a17-4dfd-8b6a-2cf9895b0fa1
+java:S3740#"/Provide the parametrized type for this generic.(¼¹„‡8áªïÿ„2J$3c827ebb-1e07-465f-855a-ab87d9a54707
 r
-java:S3740$"/Provide the parametrized type for this generic.(³þœî8áªïÿ„2J$74c21dc8-cc96-4225-969f-ae6654c1ea1a
+java:S3740$"/Provide the parametrized type for this generic.(³þœî8áªïÿ„2J$94f40fc8-9ac0-48fd-99c0-460b0def35a3
 w
-java:S3740%"/Provide the parametrized type for this generic.(â¬Ëûþÿÿÿÿ8áªïÿ„2J$48a05366-2513-40db-9ad8-d034639cd2e2
+java:S3740%"/Provide the parametrized type for this generic.(â¬Ëûþÿÿÿÿ8áªïÿ„2J$b847d411-62ee-4abd-9f47-36430d22da98
 q
-java:S3740&"/Provide the parametrized type for this generic.(ƒ˜’M8áªïÿ„2J$02d45617-731e-45a2-af18-7857a263f377
+java:S3740&"/Provide the parametrized type for this generic.(ƒ˜’M8áªïÿ„2J$58530973-accf-4f9c-9d5c-7acdddbce224
 r
-java:S3740'"/Provide the parametrized type for this generic.(ƒäÆ8áªïÿ„2J$151d4b6f-6f66-42ea-9340-cd07c2ef667f
+java:S3740'"/Provide the parametrized type for this generic.(ƒäÆ8áªïÿ„2J$0e91b207-f927-49e6-a77b-b95e8041fe40
 r
-java:S3740("/Provide the parametrized type for this generic.(‹îä±8áªïÿ„2J$943d0e5c-c82c-4a3f-8f6b-902d20ddadae
+java:S3740("/Provide the parametrized type for this generic.(‹îä±8áªïÿ„2J$adc1636c-47b3-4d38-a9c6-98f50f23a9a4
 r
-java:S3740)"/Provide the parametrized type for this generic.(û›žˆ8áªïÿ„2J$cc15cea0-aca6-4183-9921-f50c7fbbf6c3
+java:S3740)"/Provide the parametrized type for this generic.(û›žˆ8áªïÿ„2J$c18645d9-39bc-43b1-9601-8365db7b0892
 ”
-java:S1104"QMake lblId a static final constant or non-public and provide accessors if needed.(ÆŠ­¼8áªïÿ„2J$6677665b-03cc-46ea-a988-d647ed6867de
+java:S1104"QMake lblId a static final constant or non-public and provide accessors if needed.(ÆŠ­¼8áªïÿ„2J$0c00751f-b4b7-4234-b07b-d0832204bb58
 š
-java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ù×æ‰8áªïÿ„2J$ce6e9118-0ccd-48d8-a5ca-e69abedfd7a7
+java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ù×æ‰8áªïÿ„2J$a7c2a7cc-fba7-42b6-ad52-37783877f6d3
 Ÿ
-java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8áªïÿ„2J$6315bd62-a729-4e7a-861f-650b7e07d915
+java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8áªïÿ„2J$54a3dd5f-44fd-4904-b2f8-c5ae1b33425e
 œ
-java:S1104 "TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8áªïÿ„2J$0ef65371-a7ea-496b-a59a-6070e1e77497
+java:S1104 "TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8áªïÿ„2J$af6f01ba-1861-4d6a-85b8-97c4c95ebe0d
 œ
-java:S1104!"YMake cmbEmployeeId a static final constant or non-public and provide accessors if needed.(ÚÀ–½8áªïÿ„2J$caf42d8a-1300-42b3-898a-51396692c42d
+java:S1104!"YMake cmbEmployeeId a static final constant or non-public and provide accessors if needed.(ÚÀ–½8áªïÿ„2J$432c884b-b410-4956-9845-73b311b95875
 ›
-java:S1104#"XMake tblUserTable a static final constant or non-public and provide accessors if needed.(¼¹„‡8áªïÿ„2J$884e7099-8c9b-4928-a9c9-3041b635b956
+java:S1104#"XMake tblUserTable a static final constant or non-public and provide accessors if needed.(¼¹„‡8áªïÿ„2J$d68d5657-f809-493f-a8e0-a4fafb23afcd
 ˜
-java:S1104$"UMake colUserId a static final constant or non-public and provide accessors if needed.(³þœî8áªïÿ„2J$8b2ee261-4373-4592-9377-d2779e9585c9
+java:S1104$"UMake colUserId a static final constant or non-public and provide accessors if needed.(³þœî8áªïÿ„2J$94be7011-2bd6-4768-b24d-9372ea07bd77
 Ÿ
-java:S1104%"WMake colUsername a static final constant or non-public and provide accessors if needed.(â¬Ëûþÿÿÿÿ8áªïÿ„2J$58912931-0716-4c13-b4de-47ff5e413e2f
+java:S1104%"WMake colUsername a static final constant or non-public and provide accessors if needed.(â¬Ëûþÿÿÿÿ8áªïÿ„2J$4d533fa8-9202-4f3f-84d0-9de945fbe7d9
 ™
-java:S1104&"WMake colPassword a static final constant or non-public and provide accessors if needed.(ƒ˜’M8áªïÿ„2J$9f8aed2e-80e0-440d-8538-aff02f096d3e
+java:S1104&"WMake colPassword a static final constant or non-public and provide accessors if needed.(ƒ˜’M8áªïÿ„2J$e54545ff-8f1e-4e96-acdf-86ee39b81ebb
 —
-java:S1104'"TMake colEmail a static final constant or non-public and provide accessors if needed.(ƒäÆ8áªïÿ„2J$1338063f-3447-4728-bf75-e91415c720cb
+java:S1104'"TMake colEmail a static final constant or non-public and provide accessors if needed.(ƒäÆ8áªïÿ„2J$989b9b1e-71af-4a14-b5c7-869adc82ed8d
 š
-java:S1104("WMake colUserType a static final constant or non-public and provide accessors if needed.(‹îä±8áªïÿ„2J$c814474a-abc5-45c4-bb53-502ec23f4abb
+java:S1104("WMake colUserType a static final constant or non-public and provide accessors if needed.(‹îä±8áªïÿ„2J$0ee1db36-9510-4223-979f-18645b438760
 œ
-java:S1104)"YMake colEmployeeId a static final constant or non-public and provide accessors if needed.(û›žˆ8áªïÿ„2J$f5bd6ee2-5753-4d51-ad92-43912bc20f95
+java:S1104)"YMake colEmployeeId a static final constant or non-public and provide accessors if needed.(û›žˆ8áªïÿ„2J$e4fb1881-0c9d-4d0a-b798-ba6ccfa4444b
 ”
-java:S1104+"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8áªïÿ„2J$3d2c51ae-1ee9-4f8e-8a38-462917409e86
+java:S1104+"QMake txtId a static final constant or non-public and provide accessors if needed.(Ú…á¬8áªïÿ„2J$c67b3900-f14e-4074-9f0a-a714da31025a
 Ä
-java:S1186q"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬Ïð‹8ðªïÿ„2J$0e112b9d-d0ce-4754-bf6c-fbe4b3443d84
+java:S1186q"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬Ïð‹8ðªïÿ„2J$393c351f-64b7-4670-b62c-7dbfad2435c7
 o
-java:S1602S",Remove useless curly braces around statement(Éò±”8ÿªïÿ„2J$5c458486-04f7-423d-84f8-08e9d9cdb690
-m	java:S106V"+Replace this use of System.out by a logger.(Óú„•8ÿªïÿ„2J$30de6918-ff26-43e3-9603-a28c32060d6f
+java:S1602S",Remove useless curly braces around statement(Éò±”8ÿªïÿ„2J$bc2a2fd0-8d17-4ac3-b47e-6854e49dcb71
+m	java:S106V"+Replace this use of System.out by a logger.(Óú„•8ÿªïÿ„2J$6f848427-9a09-411a-bf67-7ae804fc0405
 z
-java:S1172["2Remove this unused method parameter "actionEvent".(ÊêÐ«üÿÿÿÿ8ÿªïÿ„2J$febf6080-50cd-4789-a953-8f3da0a9e39a
-m	java:S106e"+Replace this use of System.out by a logger.(Â§›î8ÿªïÿ„2J$fac30bea-63c6-48e7-a0ca-6ba5d5c88a4b
+java:S1172["2Remove this unused method parameter "actionEvent".(ÊêÐ«üÿÿÿÿ8ÿªïÿ„2J$1d469eb7-fdfa-485d-b996-4eb2161db32a
+m	java:S106e"+Replace this use of System.out by a logger.(Â§›î8ÿªïÿ„2J$fc3d4d1c-0a00-4cb7-addf-e7f348b29590
 z
-java:S1172h"2Remove this unused method parameter "actionEvent".(­‘–ûÿÿÿÿ8ÿªïÿ„2J$64f11804-e957-4b92-a4f1-163f98ac7a82
-u
-java:S1128	"XRemove this unused import 'edu.icet.clothingcrm.controller.supplier.SupplierController'.(‡ó„¾8„…’€…2
-[
-java:S1128">Remove this unused import 'edu.icet.clothingcrm.dto.Supplier'.(––å“8„…’€…2
+java:S1172h"2Remove this unused method parameter "actionEvent".(­‘–ûÿÿÿÿ8ÿªïÿ„2J$2e03e72e-3498-436c-8850-6545e94373f8
+›
+java:S1128	"XRemove this unused import 'edu.icet.clothingcrm.controller.supplier.SupplierController'.(‡ó„¾8„…’€…2J$09b0379c-4e25-4720-a193-456ef0a8a269
+
+java:S1128">Remove this unused import 'edu.icet.clothingcrm.dto.Supplier'.(––å“8„…’€…2J$c982f960-c861-481b-8635-e2d9602be3fd

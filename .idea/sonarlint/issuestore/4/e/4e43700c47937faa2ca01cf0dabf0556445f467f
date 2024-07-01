@@ -1,18 +1,18 @@
 
-	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÈŞ”«„2J$60549a8d-c04b-4f26-ae23-d461adb86d1a
-	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‘µ‹ÿ„2J$d0c40b58-06d8-4c0a-bf9e-ba0139380bfc
+	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÈŞ”«„2J$02b7f529-f81f-424b-84d3-2090e5f95b86
+	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‘µ‹ÿ„2J$44a66b8f-1300-47fd-b0c7-1293cfc9f63b
 š
-java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ù×æ‰8ØŞ”«„2J$4cdafaab-0911-42fc-aade-db77446809f4
+java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ù×æ‰8ØŞ”«„2J$e3dcd1f1-ff3f-4e14-9531-f4a680f7a085
 Ÿ
-java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8ØŞ”«„2J$1c421929-e4b7-4c02-957e-0635380363de
+java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8ØŞ”«„2J$e23f57e4-83b7-4e56-b3b4-b96426f8f7f1
 ¡
-java:S1104"YMake oldBorderPane a static final constant or non-public and provide accessors if needed.(”Õ¦ùÿÿÿÿ8ØŞ”«„2J$62c46570-bdd7-48c4-8300-8c3cd29a9757
+java:S1104"YMake oldBorderPane a static final constant or non-public and provide accessors if needed.(”Õ¦ùÿÿÿÿ8ØŞ”«„2J$5b78bf56-33b9-42cd-97d9-ff600d9c0899
 É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8ØŞ”«„2J$7bde6149-2ce8-439c-aa8f-942148eda5bd
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8ØŞ”«„2J$9b9a8431-70ca-407a-b94a-933b23044aab
 É
-java:S1186L"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®òÿşÿÿÿÿ8ØŞ”«„2J$a39561ba-a5f1-4a0d-a395-fcb572dac5f1
-k	java:S1086")Either remove or fill this block of code.(å¥‡8ØŞ”«„2J$775a3d00-7e54-466f-be44-6f59d3540d68
+java:S1186L"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®òÿşÿÿÿÿ8ØŞ”«„2J$25b791cb-f47c-44a3-b6cb-7172094a355c
+k	java:S1086")Either remove or fill this block of code.(å¥‡8ØŞ”«„2J$da429985-7d68-4ec6-ada4-67d20d030006
 €
-java:S1117>"=Rename "newWindow" which hides the field declared at line 26.(ÅÒşÉ8úŠÿ„2J$08def033-4363-4011-b4da-49b5f01d664c
+java:S1117>"=Rename "newWindow" which hides the field declared at line 26.(ÅÒşÉ8úŠÿ„2J$2eb45e85-4df4-4d3c-83a8-d4666dd8d001
 q
-java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8®ª«„2J$0d38e479-1087-4369-b702-3788b1e20ae8
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8®ª«„2J$87ce9088-2188-423b-8062-445e90e9bd3c
